@@ -3,13 +3,15 @@ import logo from '../images/logoLong.jpg'
 import {Image,Grid, Segment, Button, Card} from 'semantic-ui-react'
 import { HashLink as Link } from 'react-router-hash-link';
 import BlurAdd from '../Components/blurAdd'
-//{props.user=== '' ? <BlurAdd email={props.user} onSubmit={props.onSubmit} l/> : null }
+
 const Home = (props) => {
 
   return (
     <React.Fragment>
 
-    <div id='home' className="smooth">
+      {props.user=== '' ? <BlurAdd email={props.user} onSubmit={props.onSubmit} l/> : null }
+
+      <div id='home' className="smooth">
     <Image centered src={logo} size='huge'/>
       <Grid stackable columns={3}>
         <Grid.Column textAlign='center'>

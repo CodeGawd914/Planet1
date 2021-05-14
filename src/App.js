@@ -26,16 +26,15 @@ class App extends Component {
     }
 
 
-    onSubmit = (e,email) => {
-      e.preventDefault()
-      this.setState({user:email})
+    onSubmit = (e) => {debugger
+      this.setState({user:e.email_address})
       fetch('http://localhost:5000/signup',{
         method: 'POST',
         headers: {
           'Accept':'application/json',
           'Content-type':'application/json'
           },
-        body: JSON.stringify({email_address: email, status: 'subscribed'})
+        body: JSON.stringify({email_address: e.email_address, status: 'subscribed'})
       }).then(console.log)
     };
 
