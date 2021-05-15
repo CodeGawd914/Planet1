@@ -898,3 +898,63 @@ opacity: .50;
     transform: rotate(360deg);
   }
 }
+
+.ui.small.modal {
+    margin: 0 auto;
+    display: block !important;
+    width: 100%;
+    max-width: 760px;
+    position: relative;
+    background: linear-gradient(330deg, rgba(199, 48, 180, 1) 14%, rgba(35, 90, 196, 1) 100%);
+    height: auto;
+}
+
+form.contact-form {
+    margin: 0 auto;
+    display: block !important;
+    width: 100%;
+    max-width: 760px;
+    position: relative;
+    background: linear-gradient(
+            330deg, rgba(199, 48, 180, 1) 14%, rgba(35, 90, 196, 1) 100%);
+    height: auto;
+    padding: 60px 50px;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .custom-container {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .gilroy h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sm-img-100.card {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .container {
+        padding: 0 15px;
+    }
+}
+
+#bottomNav .ui.huge.borderless, .ui.menu.borderless {
+    padding: 0;
+    margin: 0;
+}
+.ui.menu.borderless.menu {
+    margin: 0 !important;
+}
+
+.rbc-event {
+    max-width: 200px;
+    padding: 7px 8px 4px;
+    font-size: 15px;
+}

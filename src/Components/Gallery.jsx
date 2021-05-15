@@ -8,7 +8,7 @@ class Gallery extends Component {
   }
 
   componentDidMount(){
-    fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=8481222760.9298471.64348a605e254531851e508b3df34e9b')
+    fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=7df3e1f295cb8a7bb024873ffa7251d0')
     .then(res => res.json())
     .then((data) => this.setState({data: data.data}))
   }
@@ -27,6 +27,10 @@ class Gallery extends Component {
       <div className='grid'>
       <Grid columns={3} divided>
       {list}
+      <p>
+        Error : Data Not Found From Instagram API.<br/>
+        (Please Add Your Instagram API Key)
+      </p>
       </Grid>
       </div>
     );

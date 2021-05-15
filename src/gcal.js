@@ -1,7 +1,9 @@
 import request from 'superagent'
-const CALENDAR_ID = "821938813709-9vr330gukq38vk9shmjv8o91i0mr31dt.apps.googleusercontent.com"
-const API_KEY = "AIzaSyBL44k_zsAIvE1CcPEgiRSr5zynEEKM7KM"
-let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
+require('dotenv').config();
+const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
+const API_KEY = process.env.REACT_APP_API_KEY;
+
+let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
 
 export function getEvents (callback) {
   request

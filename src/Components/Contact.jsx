@@ -61,7 +61,7 @@ class Contact extends Component {
                 <br></br>
                 <br></br>
                 <div>
-                    <Form>
+                    <Form className="contact-form">
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email Address</Form.Label>
                             <Form.Control onChange={this.handleChange} value={this.state.email} name="email"
@@ -75,7 +75,7 @@ class Contact extends Component {
                         <Button onClick={this.onSubmit} variant="primary">
                             Submit
                         </Button>
-                    </Form>
+                    </Form><br/><br/>
                     <Gallery/>
                 </div>
             </div>

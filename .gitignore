@@ -6,6 +6,8 @@
 # Node artifact files
 node_modules/
 dist/
+.env.local
+.env
 
 # Compiled Java class files
 *.class
@@ -23,7 +25,7 @@ dist/
 # Maven
 target/
 dist/
-public
+#public
 
 # JetBrains IDE
 .idea/

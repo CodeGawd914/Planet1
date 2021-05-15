@@ -41,7 +41,7 @@ export default class BlurAdd extends Component {
         <Modal.Content>
           {/*<Convert  onSubmit={this.props.onSubmit}/>*/}
           <Form>
-            <div style={{backgroundImage: 'url("https://embed.filekitcdn.com/e/ieH3wUwuJMU8RvFLPyDb9u/5gA5sHptBjYpB1zsVhxwny")'}}>
+            <div >
               <div style={{bgColor: '#2E2E2E', bgColor07: '#2E2E2E12', bgColor83: '#2E2E2ED4'}}>
             <div style={{color: 'rgb(248, 242, 249)', fontWeight: 700}}>
               <h2 style={{textAlign: 'center'}}>Become a VIP Member!</h2>
