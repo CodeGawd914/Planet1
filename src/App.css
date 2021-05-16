@@ -898,3 +898,217 @@ opacity: .50;
     transform: rotate(360deg);
   }
 }
+
+.ui.small.modal {
+    margin: 0 auto;
+    display: block !important;
+    width: 100%;
+    max-width: 760px;
+    position: relative;
+    background: linear-gradient(330deg, rgba(199, 48, 180, 1) 14%, rgba(35, 90, 196, 1) 100%);
+    height: auto;
+}
+form.contact-form {
+    margin: 0 auto;
+    display: block !important;
+    width: 100%;
+    max-width: 760px;
+    position: relative;
+    background: linear-gradient(
+            330deg, rgba(199, 48, 180, 1) 14%, rgba(35, 90, 196, 1) 100%);
+    height: auto;
+    padding: 60px 50px;
+    text-align: left;
+}
+#bottomNav .ui.huge.borderless, .ui.menu.borderless {
+    padding: 0;
+    margin: 0;
+}
+.ui.menu.borderless.menu {
+    margin: 0 !important;
+}
+.rbc-event {
+    max-width: 200px;
+    padding: 7px 8px 4px;
+    font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .custom-container {
+      padding: 0 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .gilroy h1 {
+      font-size: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sm-img-100.card {
+      width: 100%;
+      max-width: 380px;
+      margin: 0 auto;
+  }
+  .container {
+      padding: 0 15px;
+  }
+}
+
+/* comman */
+.padding {
+   padding: 0px !important;
+}
+.margin {
+  margin: 0px !important;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.classes-grid .ui.card {
+  width: 100%;
+  height: 100%;
+}
+.color-white {
+  color: #fff;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+.w3-text-white h1.neon3h {
+    margin-bottom: 30px;
+}
+/* Header */
+#bottomNav .menu .left.item img {
+  width: 200px;
+}
+/* Schedules */
+.rbc-row-segment .rbc-event-content, .rbc-show-more {
+  white-space: normal;
+}
+/* BdayParties */
+#Add .unstackable tr td:first-child {
+  width: 35%;
+}
+#Add .unstackable tr td:nth-child(2) {
+  width: 15%;
+}
+#Add .unstackable tr td:nth-child(3) {
+  width: 35%;
+}
+#Add .unstackable tr td:nth-child(4) {
+  width: 15%;
+}
+#Add .unstackable tr td:nth-child(even) {
+  text-align: right;
+}
+#Add .unstackable tr td:nth-child(2) {
+  border-right: 3px solid rgba(255, 255, 255, 0.2);
+}
+/* Attractions */
+.gilroy .segment img {
+  width: 100%;
+  margin: 4px 0;
+}
+/* Footer */
+footer .KGN a {
+  font-weight: bold;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.star img {
+  max-width: 100%;
+} 
+/* Responsive */
+@media only screen and (max-width: 1199px) {
+  /* Header */
+  #bottomNav .right.menu > a, #bottomNav .right.menu > div {
+    font-size: 14px;
+  }
+  div#bottomNav .menu .left.item img {
+      width: 150px;
+  }
+  .ui.compact.menu .left.item {
+      padding: 10px;
+  }
+  /* BdayParties */
+  .unstackable tr td:nth-child(2) {
+      border-right: 0;
+  }
+  #Add .unstackable tr td:first-child {
+    width: 50%;
+  }
+  #Add .unstackable tr td:nth-child(2) {
+    width: 50%;
+  }
+  #Add .unstackable tr td:nth-child(3) {
+    width: 50%;
+  }
+  #Add .unstackable tr td:nth-child(4) {
+    width: 50%;
+  }
+  #Add .unstackable tr td:nth-child(odd) {
+      display: inline-block;
+      text-align: left;
+  }
+  #Add .unstackable tr td:nth-child(even) {
+      display: inline-block;
+      text-align: right;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+	/* Header */
+  div#bottomNav .right.menu > a,
+	div#bottomNav .right.menu > div {
+	    font-size: 12px;
+	}
+}
+@media only screen and (max-width: 991px) {
+  /* Header */
+  #bottomNav .right.menu > a, #bottomNav .right.menu > div {
+      font-size: 9px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* Header */
+  #bottomNav .right.menu > a, #bottomNav .right.menu > div {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  div#bottomNav .menu .left.item img {
+      width: 200px;
+  }
+  /* Attractions */
+  .gilroy .segment img {
+    margin: 10px 0;
+  }
+  /* BdayParties */
+  #Add .unstackable tr td {
+      font-size: 12px;
+  }
+  /* Footer */
+  footer#footer.w3-padding-64 {
+      padding-top: 20px !important;
+  }
+  .sm-col-margin > div + div {
+    margin-top: 30px;
+  }
+  .social-wrap {
+    margin-top: 40px;
+  } 
+  .social-item + .social-item {
+    margin-top: 30px;
+  }
+  .social-wrap .centered.image {
+    max-width: 230px; 
+  }
+  .social-wrap {
+      margin-bottom: 30px;
+  }
+  /* Contact */
+  form.contact-form {
+      padding: 40px 20px;
+  }
+}
