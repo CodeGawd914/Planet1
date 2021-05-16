@@ -22,9 +22,9 @@ class Classes extends Component {
                     <br></br><br></br>
                     <p className="KGN">Classes run for 3 month long semesters. We meet once a week for 45 minutes each class. All of Planet Play’s classes have been designed by a certified teacher. </p>
                     <br></br><br></br>
-                    <Grid columns={3} divided>
-                        <Grid.Column>
-                            <Card id='card3'>
+                    <div className="row classes-grid">
+                        <div className="col-12 col-xl-4 my-4">
+                            <Card id='card3' className="mx-auto">
                                 <Card.Content>
                                     <Card.Header><h3 className="smooth w3-text-white">Story Time &amp; Connection</h3></Card.Header>
                                     <Card.Meta>
@@ -43,9 +43,9 @@ class Classes extends Component {
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
-                        </Grid.Column>
+                        </div>
 
-                        <Grid.Column>
+                        <div className="col-12 col-xl-4 my-4">
                             <Table id="card9" unstackable celled>
                                 <Table.Header className='smooth'>
                                     <Table.Row id="card9">
@@ -68,10 +68,10 @@ class Classes extends Component {
                                     </Table.Row>
                                 </Table.Body>
                             </Table>
-                        </Grid.Column>
+                        </div>
 
-                        <Grid.Column>
-                            <Card id='card6'>
+                        <div className="col-12 col-xl-4 my-4">
+                            <Card id='card6' className="mx-auto">
                                 <Card.Content>
                                     <Card.Header><h3 className="smooth w3-text-white">Blast Into Learning</h3></Card.Header>
                                     <Card.Meta>
@@ -85,10 +85,10 @@ class Classes extends Component {
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
-                        </Grid.Column>
+                        </div>
 
-                        <Grid.Column>
-                            <Card id='card7'>
+                        <div className="col-12 col-xl-4 my-4">
+                            <Card id='card7' className="mx-auto">
                                 <Card.Content>
                                     <Card.Header><h3 className="smooth w3-text-white">Messy Play</h3></Card.Header>
                                     <Card.Meta>
@@ -102,10 +102,10 @@ class Classes extends Component {
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
-                        </Grid.Column>
+                        </div>
 
-                        <Grid.Column>
-                            <Card id='card8'>
+                        <div className="col-12 col-xl-4 my-4">
+                            <Card id='card8' className="mx-auto">
                                 <Card.Content>
                                     <Card.Header><h3 className="smooth w3-text-white">Cosmic Kids</h3></Card.Header>
                                     <Card.Meta>
@@ -121,10 +121,10 @@ class Classes extends Component {
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
-                        </Grid.Column>
+                        </div>
 
-                        <Grid.Column id='Sss'>
-                            <Card id='card5'>
+                        <div className="col-12 col-xl-4 my-4" id='Sss'>
+                            <Card id='card5' className="mx-auto">
                                 <Card.Content>
                                     <Card.Header><h3 className="smooth w3-text-white"><h1 className="smooth w3-text-white">Special Needs</h1> <h1 className="smooth w3-text-white">Art & Play</h1></h3></Card.Header>
                                     <Card.Meta>
@@ -145,8 +145,8 @@ class Classes extends Component {
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
-                        </Grid.Column>
-                    </Grid>
+                        </div>
+                    </div>
 
 
                 </div>

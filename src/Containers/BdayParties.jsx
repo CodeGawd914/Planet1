@@ -8,6 +8,9 @@ const BdayParties = () => {
 
     return (
         <React.Fragment>
+        <div className="container">
+            <br/>
+            <br/>
             <div id='Para'>
                 <div className="container">
                 <p className='w3-text-white KGN'>Our slogan isn’t “An Out of this World Adventure” for no reason. Here
@@ -118,30 +121,30 @@ const BdayParties = () => {
 
             <br></br>
             <br></br>
-            <Grid className='KGN' columns='equal'>
+            <Grid className='KGN margin justify-content-center' columns='equal'>
                 <Grid.Row>
-                    <Grid.Column>
+                    <div className="col-md-4">
                         <p><Icon color='green' name='star' size='small'/> The birthday child is free</p>
-                    </Grid.Column>
-                    <Grid.Column>
+                    </div>
+                    <div className="col-md-4">
                         <p><Icon color='green' name='star' size='small'/> We are a nut free facility</p>
-                    </Grid.Column>
-                    <Grid.Column>
+                    </div>
+                    <div className="col-md-4">
                         <p><Icon color='green' name='star' size='small'/> All parties are private</p>
-                    </Grid.Column>
+                    </div>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column>
+                    <div className="col-md-4">
                         <p><Icon color='green' name='star' size='small'/> We do not allow outside food or drinks inside
                             the facility</p>
-                    </Grid.Column>
-                    <Grid.Column>
+                    </div>
+                    <div className="col-md-4">
                         <p><Icon color='green' name='star' size='small'/> Additional food is available for purchase</p>
-                    </Grid.Column>
-                    <Grid.Column>
+                    </div>
+                    <div className="col-md-4">
                         <p><Icon color='green' name='star' size='small'/> Party planning services are available for
                             custom themes</p>
-                    </Grid.Column>
+                    </div>
                 </Grid.Row>
             </Grid>
             <br></br>
@@ -150,7 +153,7 @@ const BdayParties = () => {
                 <Table id='card3' unstackable>
                     <Table.Header>
                         <Table.Row textAlign='center'>
-                            <Table.HeaderCell id='card3'>Add-Ons</Table.HeaderCell>
+                            <Table.HeaderCell colspan="4" id='card3'>Add-Ons</Table.HeaderCell>
                         </Table.Row>
                     </Table.Header>
 
@@ -222,6 +225,7 @@ const BdayParties = () => {
                     </Table.Body>
                 </Table>
             </div>
+        </div>
         </React.Fragment>
     )
 }

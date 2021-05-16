@@ -35,48 +35,50 @@ class Contact extends Component {
     render() {
         console.log(this.state);
         return (
-            <div id='Start' className="w3-text-white smooth neon1q">
-                <List>
-                    <List.Item textAlign='center' className='w3-text-white'> 418 Bedford Avenue Bellmore, NY
-                        11710</List.Item>
-                    <List.Item>516-636-5622</List.Item>
+            <div className="container">
+                <div id='Start' className="w3-text-white smooth neon1q mt-30">
+                    <List>
+                        <List.Item textAlign='center' className='w3-text-white'> 418 Bedford Avenue Bellmore, NY
+                            11710</List.Item>
+                        <List.Item>516-636-5622</List.Item>
+                        <br></br>
+                        <List.Item>Hours</List.Item>
+                        <br></br>
+                        <List.Item>Monday 10am-4:30pm</List.Item>
+                        <List.Item>Tuesday 10am-4:30pm</List.Item>
+                        <List.Item>Wednesday 10am-4:30pm</List.Item>
+                        <List.Item>Thursday Closed</List.Item>
+                        <List.Item>Friday 3pm - 7pm</List.Item>
+                        <List.Item>Saturday 11am -7pm</List.Item>
+                        <List.Item>Sunday 11am -5pm</List.Item>
+                    </List>
+                    <div className="mt-30">
+                        <a href="https://www.facebook.com/planetplayny" target="_blank">
+                            <Icon size='huge' className="facebook"/></a>
+                        <a href="https://www.instagram.com/planetplayny" target="_blank">
+                            <Icon size='huge' className="instagram"/></a>
+                    </div>
                     <br></br>
-                    <List.Item>Hours</List.Item>
                     <br></br>
-                    <List.Item>Monday 10am-4:30pm</List.Item>
-                    <List.Item>Tuesday 10am-4:30pm</List.Item>
-                    <List.Item>Wednesday 10am-4:30pm</List.Item>
-                    <List.Item>Thursday Closed</List.Item>
-                    <List.Item>Friday 3pm - 7pm</List.Item>
-                    <List.Item>Saturday 11am -7pm</List.Item>
-                    <List.Item>Sunday 11am -5pm</List.Item>
-                </List>
-                <div>
-                    <a href="https://www.facebook.com/planetplayny" target="_blank">
-                        <Icon size='huge' className="facebook"/></a>
-                    <a href="https://www.instagram.com/planetplayny" target="_blank">
-                        <Icon size='huge' className="instagram"/></a>
-                </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <div>
-                    <Form className="contact-form">
-                        <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email Address</Form.Label>
-                            <Form.Control onChange={this.handleChange} value={this.state.email} name="email"
-                                          type="email" placeholder="Email Address"/>
-                        </Form.Group>
-                        <Form.Group controlId="formBasicDiscription">
-                            <Form.Label>Comments & Questions</Form.Label>
-                            <Form.Control onChange={this.handleChange} value={this.state.comment} name="comment"
-                                          type="text" placeholder="Tell us what you think"/>
-                        </Form.Group>
-                        <Button onClick={this.onSubmit} variant="primary">
-                            Submit
-                        </Button>
-                    </Form><br/><br/>
-                    <Gallery/>
+                    <br></br>
+                    <div>
+                        <Form className="contact-form">
+                            <Form.Group controlId="formBasicEmail">
+                                <Form.Label>Email Address</Form.Label>
+                                <Form.Control onChange={this.handleChange} value={this.state.email} name="email"
+                                            type="email" placeholder="Email Address"/>
+                            </Form.Group>
+                            <Form.Group controlId="formBasicDiscription">
+                                <Form.Label>Comments & Questions</Form.Label>
+                                <Form.Control onChange={this.handleChange} value={this.state.comment} name="comment"
+                                            type="text" placeholder="Tell us what you think"/>
+                            </Form.Group>
+                            <Button onClick={this.onSubmit} variant="primary">
+                                Submit
+                            </Button>
+                        </Form><br/><br/>
+                        <Gallery/>
+                    </div>
                 </div>
             </div>
         );
