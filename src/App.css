@@ -963,7 +963,8 @@ form.contact-form {
 .justify-content-center {
   justify-content: center;
 }
-.classes-grid .ui.card {
+.classes-grid .ui.card,
+.bday-list .ui.card{  
   width: 100%;
   height: 100%;
 }

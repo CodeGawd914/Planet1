@@ -27,7 +27,7 @@ const BdayParties = () => {
                 <br></br>
             </div>
             <div id="Packages">
-                <Grid className="ui stackable three column grid smooth" columns={3}>
+                <Grid className="ui stackable three column grid smooth bday-list" columns={3}>
                     <Grid.Row>
                         <Grid.Column>
                             <Card className="sm-img-100" id="card8"
