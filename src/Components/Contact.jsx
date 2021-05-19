@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Icon, List} from 'semantic-ui-react'
-import {Button, Form} from 'react-bootstrap';
+import {Button, Form} from 'react-bootstrap'
+import Contactform from '../Components/Contactform'
 
 import Gallery from './Gallery'
 
@@ -62,7 +63,10 @@ class Contact extends Component {
                     <br></br>
                     <br></br>
                     <div>
-                        <Form className="contact-form">
+                        <div id='contactForm'>
+                        <Contactform />
+                        </div>
+                        {/* <Form className="contact-form">
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Email Address</Form.Label>
                                 <Form.Control onChange={this.handleChange} value={this.state.email} name="email"
@@ -76,7 +80,8 @@ class Contact extends Component {
                             <Button onClick={this.onSubmit} variant="primary">
                                 Submit
                             </Button>
-                        </Form><br/><br/>
+                        </Form><br/><br/> */}
+                        <br/><br/> 
                         <Gallery/>
                     </div>
                 </div>
