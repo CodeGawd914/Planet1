@@ -1,4 +1,5 @@
 import request from 'superagent'
+import moment from 'moment'
 const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
 const API_KEY = process.env.REACT_APP_API_KEY;
 require('dotenv').config();
@@ -12,8 +13,10 @@ export function getEvents (callback) {
       if (!err) {
         const events = []
         JSON.parse(resp.text).items.map((event) => {
-          var sDate = new Date(event.start.date || event.start.dateTime);
-          var eDate = new Date(event.end.date || event.end.dateTime);
+          var sssDate = event.status === "cancelled" ? moment(): event.start.dateTime;
+          var eeeDate =  event.status === "cancelled" ? moment() : event.end.dateTime;
+          var sDate = new Date(sssDate);
+          var eDate = new Date(eeeDate);
           events.push({
             start: sDate,
             end: eDate,
