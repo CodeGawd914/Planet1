@@ -30,7 +30,16 @@ class Schedules extends Component {
               </div>
               <div className="col-12 col-md-4 KGN">
                 <List.Item>
-                  <b>Mon Tue & Wed</b>
+                  <b>Mon</b>
+                </List.Item>
+                <List.Item>
+                  <b>12:00pm-2:00pm</b>
+                </List.Item>
+                <List.Item>
+                  <b>2:00pm-4:00pm</b>
+                </List.Item>
+                <List.Item>
+                  <b>Wed</b>
                 </List.Item>
                 <List.Item>
                   <b>10:00am-12:00pm</b>
@@ -39,7 +48,13 @@ class Schedules extends Component {
                   <b>12:15pm-2:15pm</b>
                 </List.Item>
                 <List.Item>
-                  <b>2:30pm-4:30pm</b>
+                  <b>Thurs</b>
+                </List.Item>
+                <List.Item>
+                  <b>12:00pm-2:00pm</b>
+                </List.Item>
+                <List.Item>
+                  <b>2:00pm-4:00pm</b>
                 </List.Item>
               </div>
             </div>
@@ -54,17 +69,52 @@ class Schedules extends Component {
               <div className="col-12 col-md-4">
                 <List>
                   <b>
+                  <List.Item>
+                    <b>Mon & Thurs</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>4:00pm-6:00pm</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>6:00pm-8:00pm</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>Wed</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>2:30pm-4:30pm</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>Fri*</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>3:00pm-5:00pm</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>7:00pm-9:00pm</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>Arcade only (tweens welcome)</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>Sat*</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>6:00pm-8:00pm</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>Sun*</b>
+                  </List.Item>
+                  <List.Item>
+                    <b>4:30pm-6:00pm</b>
+                  </List.Item>
+
                     <List.Item>
-                    </List.Item>
+                      *Friday Saturday & Sunday:
+                  </List.Item>
                     <List.Item>
-                      Fri 3:00pm-5:00pm
-      </List.Item>
-                    <List.Item>
-                      Friday Saturday & Sunday:
-      </List.Item>
-                    <List.Item>
-                      Open play times vary, check our schedule.
-      </List.Item>
+                      *Additional open play times vary based on party bookings. Please check our schedule!
+                  </List.Item>
                   </b>
                 </List>
               </div>

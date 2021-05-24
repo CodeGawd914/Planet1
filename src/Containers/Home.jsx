@@ -16,7 +16,7 @@ const Home = (props) => {
       <Grid stackable columns={3}>
         <Grid.Column textAlign='center'>
           <Link to="/Attractions#Cosmic">
-            <Segment size='large' id='card1' textAlign='center'><br></br><br></br><h1 className='neonRed smooth16'>Cosmic     Cafe</  h1><br></br><br></br>
+            <Segment size='large' id='card1' textAlign='center'><br></br><br></br><h1 className='neonRed smooth16'>Cosmic Cafe</  h1><br></br><br></br>
             </Segment>
           </Link>
         </Grid.Column>
@@ -31,7 +31,7 @@ const Home = (props) => {
           </Link>
         </Grid.Column>
         <Grid.Column>
-          <Link to="/Schedule#OpenPlay">
+          <Link to="/Schedules#Open">
           <Segment size='large' id='card8' textAlign='center'><br></br><br></br><h1 className='neon3 smooth16'>Sensitive Space</h1><br></br><br></br></Segment>
           </Link>
         </Grid.Column>
@@ -41,12 +41,12 @@ const Home = (props) => {
         </Link>
         </Grid.Column>
         <Grid.Column>
-        <Link to="/Schedule#Classes">
+        <Link to="/Schedules#Classes">
           <Segment size='large' id='card6' textAlign='center'><br></br><br></br><h1 className='neonSilver smooth16'>Class Schedule</h1><br></br><br></br></Segment>
           </Link>
         </Grid.Column>
         <Grid.Column>
-        <Link to="/Schedule#OpenPlay">
+        <Link to="/Schedules#OpenPlay">
           <Segment size='large'id='card7' textAlign='center'><br></br><br></br><h1 className='neon3 smooth16'>Open Play</h1><br></br><br></br></Segment>
           </Link>
         </Grid.Column>
@@ -56,7 +56,7 @@ const Home = (props) => {
           </Link>
         </Grid.Column>
         <Grid.Column>
-        <Link to="/Schedule#VIP">
+        <Link to="/Schedules#VIP">
           <Segment size='large' id='card4' textAlign='center'><br></br><br></br><h1 className='neon3 smooth16'>VIP Club</h1><br></br><br></br></Segment>
           </Link>
         </Grid.Column>

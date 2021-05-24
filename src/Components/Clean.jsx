@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import { List} from 'semantic-ui-react'
+import bio0 from '../images/bio0.jpg'
+import bio1 from '../images/bio1.jpg'
+import bio3 from '../images/bio3.jpg'
+import ion from '../images/ion.jpg'
+import { List,Grid,Segment,Image} from 'semantic-ui-react'
 
 class Clean extends Component {
 
@@ -15,6 +19,23 @@ class Clean extends Component {
           <br></br>
             Planet Play is protected by BIOPROTECTUs™ System. This hospital-grade, non-toxic disinfectant is a highly efficient and effective preventative program to help reduce and control the spread of microorganisms.
           <br></br>
+          <br></br>
+          <br></br>
+          <Segment id='card4' attached>
+            <Grid stackable>
+              <Grid.Row centered columns={3}>
+                <Grid.Column>
+                  <Image src={bio0}/>
+                </Grid.Column>
+                <Grid.Column>
+                  <Image src={bio1}/>
+                </Grid.Column>
+                <Grid.Column>
+                  <Image src={bio3}/>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </Segment>
           <br></br>
           <br></br>
           BIOPROTECT ™ is…
@@ -36,7 +57,10 @@ class Clean extends Component {
           Planet Play is also protected by ScentAir Ion Defend.
           <br></br>
           <br></br>
+          <Image fluid centered size='medium' src={ion}/>
+          <br></br>
           ScentAir Ion Defend is…
+          <br></br>
 
           <List>
 
@@ -56,15 +80,6 @@ class Clean extends Component {
           <br></br>
           <br></br>
           -The entire facility is sprayed in between each open play session and party with our BIOPROTECTUs™ Disinfectant. This includes, but is not limited to, the front prize counter, arcade games, toddler section, cafe, jungle gym, all doorknobs, and bathrooms.
-          <br></br>
-          <br></br>
-          -Upon entering Planet Play™, temperatures will be taken. Anything over 100.3 will not be permitted in the facility.
-          <br></br>
-          <br></br>
-          -Upon entering Planet Play™, guests will step into a boot tray that contains a small level of BIOPROTECTUs™. This will disinfect the soles of shoes, eliminating the tracking of germs and viruses into the facility. Additionally, in any area where children may be climbing or crawling, such as the jungle gym and toddler area, shoes are not permitted.
-          <br></br>
-          <br></br>
-          -All adults and children over the age of 6 will be required to wear masks while it is a NYS mandate.
           <br></br>
           <br></br>
           -Hand sanitizing stations are available all over the facility. Here at Planet Play, we prioritize health and safety. Please see our cleaning protocol, along with information regarding the products we have chosen to use to protect our facility.

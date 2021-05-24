@@ -13,7 +13,7 @@ class Classes extends Component {
         return (
             <React.Fragment>
                 <div>
-                    <Image style={{width:700, height: 240}} src={header}  verticalAlign='top'/>
+                    <Image size="large" src={header}  verticalAlign='top'/>
                 </div>
                 <br></br><br></br>
                 <div>
@@ -49,22 +49,40 @@ class Classes extends Component {
                             <Table id="card9" unstackable celled>
                                 <Table.Header className='smooth'>
                                     <Table.Row id="card9">
-                                        <Table.HeaderCell textAlign='center'>Mon</Table.HeaderCell>
-                                        <Table.HeaderCell textAlign='center'>Tues</Table.HeaderCell>
-                                        <Table.HeaderCell textAlign='center'>Wed</Table.HeaderCell>
+                                        <Table.HeaderCell textAlign='center' width='six'>Mon</Table.HeaderCell>
+                                        <Table.HeaderCell textAlign='center' width='six'>Wed</Table.HeaderCell>
+                                        {/* <Table.HeaderCell textAlign='center'>Wed</Table.HeaderCell> */}
                                     </Table.Row>
                                 </Table.Header>
 
                                 <Table.Body className='smooth12'>
                                     <Table.Row>
-                                        <Table.Cell textAlign='center'><p>Cosmic Kids</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
-                                        <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Cosmic Kids</p> <p className="KGN"><b>2:00-2:45</b></p></Table.Cell>
                                         <Table.Cell textAlign='center'><p>Storytime & Connection</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
                                     </Table.Row>
                                     <Table.Row>
-                                        <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>4:00-5:15</b></p></Table.Cell>
+                    <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>5:30-6:15</b></p></Table.Cell>
+                    <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell>
+                  </Table.Row>
+                                </Table.Body>
+                            </Table>
+
+                            <Table id="card9" unstackable celled>
+                                <Table.Header className='smooth'>
+                                    <Table.Row id="card9">
+                                        <Table.HeaderCell textAlign='center' width='six'>Thurs</Table.HeaderCell>
+                                        <Table.HeaderCell textAlign='center' width='six'>Fri</Table.HeaderCell>
+                                        {/* <Table.HeaderCell textAlign='center'>Wed</Table.HeaderCell> */}
+                                    </Table.Row>
+                                </Table.Header>
+
+                                <Table.Body className='smooth12'>
+                                    <Table.Row>
                                         <Table.Cell textAlign='center'><p>Special Needs Art & Play</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell>
-                                        <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>4:15-5:00</b></p></Table.Cell>
+                                    </Table.Row>
+                                    <Table.Row>
+                                    <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>6:00-6:45</b></p></Table.Cell>
                                     </Table.Row>
                                 </Table.Body>
                             </Table>
@@ -116,7 +134,7 @@ class Classes extends Component {
                                     <Card.Content extra><span className='KGN date'><b>$300 per Semester</b></span></Card.Content>
                                     <Card.Description>
                                         <p className="KGN"><b>Cosmic Kids is a program designed for our youngest space cadets. Through music, stories,
-                                            movement, games and more, your little one will learn to build confidence,  develop social skills,
+                                            movement, games and more, your little one will learn to build confidence,  develop social skills,
                                             and learn about things such as color, rhythm and more.</b></p>
                                     </Card.Description>
                                 </Card.Content>

@@ -28,8 +28,7 @@ class Gallery extends Component {
       <Grid columns={3} divided>
       {list}
       <p>
-        Error : Data Not Found From Instagram API.<br/>
-        (Please Add Your Instagram API Key)
+      
       </p>
       </Grid>
       </div>

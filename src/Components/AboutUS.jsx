@@ -8,17 +8,19 @@ class AboutUs  extends Component {
       <div className='container'>
         <br></br>
         <br></br>
-        <div id='about padding-top'>
-        <h1 className=" neon3h smooth w3-text-white">About us</h1>
+        <div id='padding-top'>
+        <h1 id='about' className=" neon3h smooth w3-text-white">About us</h1>
         <p className='KGN'>Planet Play was created by three moms who wanted to build an all inclusive space that sparked the imagination, encouraged play and activity, and catered to children of all ages. Recognizing that families and siblings differ in age and interest, we wanted to build an area where parents could bring their children and have something for everyone! With a variety of offerings, which include but are not limited to, virtual reality experiences, arcade games, a toddler area, a bounce house, a 700 square foot indoor jungle gym, and toddler and preschool classes. Planet Play is sure to provide families with an OUT OF THIS WORLD adventure! And parents, we haven’t forgotten about you! Our Cosmic Cafe offers gourmet coffee and treats in a comfortable lounge area so you can relax while your children explore. If you are interested in open play, hosting a private birthday party, or attending one of our classes, then give us a call or stop in today!</p>
         </div>
         <br></br>
         <br></br>
-        <div id='Policies padding-top'>
+        <div id='padding-top'>
+        <div id="policies"></div>
         <h1 className="neon3h smooth w3-text-white">Policies</h1>
         <p className="w3-left-align KGN">
         In order to provide everyone with an OUT OF THIS WORLD ADVENTURE, we have a few rules and policies that we ask everyone to abide by.
         <br></br>
+
         <br></br>
         -Planet Play is a shoe and stroller free facility. Cleanliness is a top priority to us, as we want to keep all children and visitors healthy and safe. In order to do this, we do not allow shoes past a certain point. All guests must wear socks.
         *Socks can be purchased at the front desk*

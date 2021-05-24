@@ -161,13 +161,13 @@ const BdayParties = () => {
                         <Table.Row>
                             <Table.Cell>DELUXE GOODY BAG</Table.Cell>
                             <Table.Cell>$5 EACH</Table.Cell>
-                            <Table.Cell>UNLIMITED VIRTUAL REALITY</Table.Cell>
-                            <Table.Cell>$100</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
                             <Table.Cell>PERSONALIZED TUMBLER GOODY BAG</Table.Cell>
                             <Table.Cell>$8 EACH</Table.Cell>
-                            <Table.Cell>CHARACTER APPERANCE</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>UNLIMITED VIRTUAL REALITY</Table.Cell>
+                            <Table.Cell>$100</Table.Cell>
+                            <Table.Cell>CHARACTER APPEARANCE</Table.Cell>
                             <Table.Cell>$100</Table.Cell>
                         </Table.Row>
                         <Table.Row>
@@ -196,13 +196,13 @@ const BdayParties = () => {
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>Veggie Pie</Table.Cell>
-                            <Table.Cell>$35</Table.Cell>
-                            <Table.Cell>2 Liter of Soda</Table.Cell>
-                            <Table.Cell>$4</Table.Cell>
+                            <Table.Cell>$22</Table.Cell>
+                            <Table.Cell>Stuffed Knots: Either spinach, sausage, or pepperoni (each)</Table.Cell>
+                            <Table.Cell>$1.50</Table.Cell>
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>Garlic Knots-half tray</Table.Cell>
-                            <Table.Cell>$50</Table.Cell>
+                            <Table.Cell>$35</Table.Cell>
                             <Table.Cell>Garlic Knots- full tray</Table.Cell>
                             <Table.Cell>$45</Table.Cell>
                         </Table.Row>
@@ -219,8 +219,14 @@ const BdayParties = () => {
                             <Table.Cell>$85</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>Stuffed Knots: Either spinach, sausage, or pepperoni (each)</Table.Cell>
-                            <Table.Cell>$1.50</Table.Cell>
+                            <Table.Cell>French Fries half tray</Table.Cell>
+                            <Table.Cell>$20</Table.Cell>
+                            <Table.Cell>French Fries full tray</Table.Cell>
+                            <Table.Cell>$35</Table.Cell>
+                        </Table.Row>
+                          <Table.Row>
+                          <Table.Cell>2 Liter of Soda</Table.Cell>
+                          <Table.Cell>$4</Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>

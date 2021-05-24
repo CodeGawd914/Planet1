@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Icon, List} from 'semantic-ui-react'
-import {Button, Form} from 'react-bootstrap';
+import {Button, Form} from 'react-bootstrap'
+import Contactform from '../Components/Contactform'
 
 import Gallery from './Gallery'
 
@@ -44,13 +45,13 @@ class Contact extends Component {
                         <br></br>
                         <List.Item>Hours</List.Item>
                         <br></br>
-                        <List.Item>Monday 10am-4:30pm</List.Item>
-                        <List.Item>Tuesday 10am-4:30pm</List.Item>
+                        <List.Item>Monday 12am-8pm</List.Item>
+                        <List.Item>Tuesday Closed</List.Item>
                         <List.Item>Wednesday 10am-4:30pm</List.Item>
-                        <List.Item>Thursday Closed</List.Item>
-                        <List.Item>Friday 3pm - 7pm</List.Item>
-                        <List.Item>Saturday 11am -7pm</List.Item>
-                        <List.Item>Sunday 11am -5pm</List.Item>
+                        <List.Item>Thursday 12am-8pm</List.Item>
+                        <List.Item>Friday 3pm - 9pm</List.Item>
+                        <List.Item>Saturday 11am -8pm</List.Item>
+                        <List.Item>Sunday 11am -6pm</List.Item>
                     </List>
                     <div className="mt-30">
                         <a href="https://www.facebook.com/planetplayny" target="_blank">
@@ -62,7 +63,10 @@ class Contact extends Component {
                     <br></br>
                     <br></br>
                     <div>
-                        <Form className="contact-form">
+                        <div id='contactForm'>
+                        <Contactform />
+                        </div>
+                        {/* <Form className="contact-form">
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Email Address</Form.Label>
                                 <Form.Control onChange={this.handleChange} value={this.state.email} name="email"
@@ -76,7 +80,8 @@ class Contact extends Component {
                             <Button onClick={this.onSubmit} variant="primary">
                                 Submit
                             </Button>
-                        </Form><br/><br/>
+                        </Form><br/><br/> */}
+                        <br/><br/>
                         <Gallery/>
                     </div>
                 </div>

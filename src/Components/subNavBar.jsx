@@ -16,16 +16,17 @@ const SubNavBar = () => {
 
             <Dropdown as={Link} item simple text='About Us' to="/AboutUs">
               <Dropdown.Menu>
+                <Dropdown.Item as={Link} text='Policies' to='/AboutUs#policies'/>
                 <Dropdown.Item as={Link} text='Waiver' to='/Waiver'/>
-                <Dropdown.Item as={Link} text='Health & Saftey'to='/Clean'/>
+                <Dropdown.Item as={Link} text='Health & Safety'to='/Clean'/>
               </Dropdown.Menu>
             </Dropdown>
             <Dropdown item simple text='Schedule'>
               <Dropdown.Menu>
-                <Dropdown.Item as={Link} text="Open Play" to="Schedules#Open"/>
-                <Dropdown.Item as={Link} text="Classes" to="Schedules#Classes"/>
+                <Dropdown.Item as={Link} text="Open Play" to="/Schedules#Open"/>
+                <Dropdown.Item as={Link} text="Classes" to="/Schedules#Classes"/>
                 <Dropdown.Item as={Link} text="Calendar" to='/Schedules#Calendar'/>
-                <Dropdown.Item as={Link} text="Sensitive Space Hours" to='/Schedules#Sss'/>
+                <Dropdown.Item as={Link} text="Sensitive Space Hours" to='/Schedules#Open'/>
               </Dropdown.Menu>
             </Dropdown>
           <Dropdown item simple text='Birthday Parties'>
