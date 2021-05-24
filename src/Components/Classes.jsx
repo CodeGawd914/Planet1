@@ -50,17 +50,41 @@ class Classes extends Component {
                                 <Table.Header className='smooth'>
                                     <Table.Row id="card9">
                                         <Table.HeaderCell textAlign='center' width='six'>Mon</Table.HeaderCell>
+<<<<<<< HEAD
                                         <Table.HeaderCell textAlign='center' width='six'>Wed</Table.HeaderCell>
+=======
+                                        <Table.HeaderCell textAlign='center' width='six'>Tues</Table.HeaderCell>
+>>>>>>> 4f1c91f04278bcd63f7dbbdd47b1ccbbef6b4ae8
                                         {/* <Table.HeaderCell textAlign='center'>Wed</Table.HeaderCell> */}
                                     </Table.Row>
                                 </Table.Header>
 
                                 <Table.Body className='smooth12'>
                                     <Table.Row>
+<<<<<<< HEAD
                                         <Table.Cell textAlign='center'><p>Cosmic Kids</p> <p className="KGN"><b>2:00-2:45</b></p></Table.Cell>
                                         <Table.Cell textAlign='center'><p>Storytime & Connection</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
+=======
+                                        <Table.Cell textAlign='center'><p>Cosmic Kids</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
+                                        {/* <Table.Cell textAlign='center'><p>Storytime & Connection</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell> */}
                                     </Table.Row>
+                                </Table.Body>
+                            </Table>
+
+                            <Table id="card9" unstackable celled>
+                                <Table.Header className='smooth'>
+                                    <Table.Row id="card9">
+                                        <Table.HeaderCell textAlign='center' width='six'>Wed</Table.HeaderCell>
+                                        <Table.HeaderCell textAlign='center' width='six'>Fri</Table.HeaderCell>
+                                        {/* <Table.HeaderCell textAlign='center'>Wed</Table.HeaderCell> */}
+>>>>>>> 4f1c91f04278bcd63f7dbbdd47b1ccbbef6b4ae8
+                                    </Table.Row>
+                                </Table.Header>
+
+                                <Table.Body className='smooth12'>
                                     <Table.Row>
+<<<<<<< HEAD
                     <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>5:30-6:15</b></p></Table.Cell>
                     <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell>
                   </Table.Row>
@@ -83,6 +107,12 @@ class Classes extends Component {
                                     </Table.Row>
                                     <Table.Row>
                                     <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>6:00-6:45</b></p></Table.Cell>
+=======
+                                        <Table.Cell textAlign='center'><p>Storytime & Connection</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>4:00-5:15</b></p></Table.Cell>
+                                        {/* <Table.Cell textAlign='center'><p>Special Needs Art & Play</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell> */}
+                                        {/* <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell> */}
+>>>>>>> 4f1c91f04278bcd63f7dbbdd47b1ccbbef6b4ae8
                                     </Table.Row>
                                 </Table.Body>
                             </Table>

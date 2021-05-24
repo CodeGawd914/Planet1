@@ -1060,7 +1060,11 @@ form[data-format="inline"] button[type="submit"]:hover {
   justify-content: center;
 }
 .classes-grid .ui.card,
+<<<<<<< HEAD
 .bday-list .ui.card{
+=======
+.bday-list .ui.card{  
+>>>>>>> 4f1c91f04278bcd63f7dbbdd47b1ccbbef6b4ae8
   width: 100%;
   height: 100%;
 }

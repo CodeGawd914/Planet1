@@ -34,4 +34,8 @@ export default function Contactform() {
       <input type="submit" value="Submit" />
     </form>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4f1c91f04278bcd63f7dbbdd47b1ccbbef6b4ae8

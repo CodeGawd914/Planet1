@@ -14,14 +14,14 @@ const SubNavBar = () => {
       </Link>
           <Menu.Menu unstackable position='right' className='smooth'>
 
-            <Dropdown as={Link} item simple text='About Us' to="/AboutUs">
+            <Dropdown as={Link} item text='About Us' to="/AboutUs">
               <Dropdown.Menu>
                 <Dropdown.Item as={Link} text='Policies' to='/AboutUs#policies'/>
                 <Dropdown.Item as={Link} text='Waiver' to='/Waiver'/>
                 <Dropdown.Item as={Link} text='Health & Safety'to='/Clean'/>
               </Dropdown.Menu>
             </Dropdown>
-            <Dropdown item simple text='Schedule'>
+            <Dropdown item text='Schedule'>
               <Dropdown.Menu>
                 <Dropdown.Item as={Link} text="Open Play" to="/Schedules#Open"/>
                 <Dropdown.Item as={Link} text="Classes" to="/Schedules#Classes"/>
@@ -29,13 +29,13 @@ const SubNavBar = () => {
                 <Dropdown.Item as={Link} text="Sensitive Space Hours" to='/Schedules#Open'/>
               </Dropdown.Menu>
             </Dropdown>
-          <Dropdown item simple text='Birthday Parties'>
+          <Dropdown item text='Birthday Parties'>
             <Dropdown.Menu>
               <Dropdown.Item as={Link} text='Packages' to='/BdayParties#Packages'/>
               <Dropdown.Item as={Link} text='Add-ons' to='/BdayParties#Add'/>
             </Dropdown.Menu>
           </Dropdown>
-          <Dropdown closeOnChange={true} item simple text='Attractions' to='/Attractions'>
+          <Dropdown closeOnChange={true} item text='Attractions' to='/Attractions'>
             <Dropdown.Menu>
               <Dropdown.Item as={Link} text='Jungle Gym' to='/Attractions#Jungle'/>
               <Dropdown.Item as={Link} text='Bounce House' to='/Attractions#Bounce'/>
