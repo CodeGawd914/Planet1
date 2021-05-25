@@ -82,7 +82,7 @@ export default class Calendar extends React.Component {
         <h2 className="neon3h smooth w3-text-white">Calendar</h2>
 
           <BigCalendar
-            style={{height: '420px'}}
+            style={{height: '800px'}}
       localizer={localizer}
       events={this.state.events}
       startAccessor="start"

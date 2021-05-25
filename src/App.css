@@ -1081,8 +1081,12 @@ form[data-format="inline"] button[type="submit"]:hover {
   width: 200px;
 }
 /* Schedules */
-.rbc-row-segment .rbc-event-content, .rbc-show-more {
+/* .rbc-row-segment .rbc-event-content, .rbc-show-more {
   white-space: normal;
+} */
+.rbc-ellipsis, .rbc-event-label, .rbc-row-segment .rbc-event-content, .rbc-show-more {
+  font-size: 12px;
+  font-family: system-ui, sans-serif;
 }
 /* BdayParties */
 #Add .unstackable tr td:first-child {
