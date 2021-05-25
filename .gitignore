@@ -4,8 +4,8 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
-node_modules/
-dist/
+
+
 .env.local
 .env
 
@@ -24,6 +24,7 @@ dist/
 
 # Maven
 target/
+node_modules/
 dist/
 #public
 
