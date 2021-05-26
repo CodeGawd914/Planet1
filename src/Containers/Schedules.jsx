@@ -26,35 +26,17 @@ class Schedules extends Component {
                 <p><b className='smooth'>Mini Milky Way</b></p>
               </div>
               <div className="col-12 col-md-4">
-                <b className=" KGN w3-left-align">Up to 7 years old</b>
+                <b className=" KGN w3-left-align">(Up to 7 years old)</b>
               </div>
               <div className="col-12 col-md-4 KGN">
                 <List.Item>
-                  <b>Mon</b>
+                  <b>Mon </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b>
                 </List.Item>
                 <List.Item>
-                  <b>12:00pm-2:00pm</b>
+                  <b>Wed </b><Icon color='gold' name='star' size='small'/> <b> 10am-12pm </b><Icon color='gold' name='star' size='small'/><b>12:15pm-2:15pm</b>
                 </List.Item>
                 <List.Item>
-                  <b>2:00pm-4:00pm</b>
-                </List.Item>
-                <List.Item>
-                  <b>Wed</b>
-                </List.Item>
-                <List.Item>
-                  <b>10:00am-12:00pm</b>
-                </List.Item>
-                <List.Item>
-                  <b>12:15pm-2:15pm</b>
-                </List.Item>
-                <List.Item>
-                  <b>Thurs</b>
-                </List.Item>
-                <List.Item>
-                  <b>12:00pm-2:00pm</b>
-                </List.Item>
-                <List.Item>
-                  <b>2:00pm-4:00pm</b>
+                  <b>Thurs </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b>
                 </List.Item>
               </div>
             </div>
@@ -64,54 +46,45 @@ class Schedules extends Component {
                 <p className='smooth'><b>All Age Astronauts</b></p>
               </div>
               <div className="col-12 col-md-4">
-                <b>For all ages</b>
+                <b>(For all ages)</b>
               </div>
               <div className="col-12 col-md-4">
                 <List>
                   <b>
                   <List.Item>
-                    <b>Mon & Thurs</b>
+                    <b>Mon </b> <Icon color='gold' name='star' size='small'/><b> 4pm-6pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>4:00pm-6:00pm</b>
+                    <b>Wed</b> <Icon color='gold' name='star' size='small'/><b> 2:30pm-4:30pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>6:00pm-8:00pm</b>
+                    <b>Thurs </b><Icon color='gold' name='star' size='small'/><b> 4pm-6pm </b><Icon color='gold' name='star' size='small'/><b>6pm-8pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>Wed</b>
+                    <b>*Fri </b> <Icon color='gold' name='star' size='small'/><b> 2:30pm-4:30pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>2:30pm-4:30pm</b>
+                    <b>*Sat </b>  <Icon color='gold' name='star' size='small'/><b> 6pm-8pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>Fri*</b>
+                    <b>*Sun </b>  <Icon color='gold' name='star' size='small'/><b> 4pm-6pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
+                  <br></br>
+
+
                   <List.Item>
-                    <b>3:00pm-5:00pm</b>
-                  </List.Item>
-                  <List.Item>
-                    <b>7:00pm-9:00pm</b>
+                  <b>Fri Night </b> <Icon color='gold' name='star' size='small'/><b> 7pm-9pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
                     <b>Arcade only (tweens welcome)</b>
                   </List.Item>
-                  <List.Item>
-                    <b>Sat*</b>
-                  </List.Item>
-                  <List.Item>
-                    <b>6:00pm-8:00pm</b>
-                  </List.Item>
-                  <List.Item>
-                    <b>Sun*</b>
-                  </List.Item>
-                  <List.Item>
-                    <b>4:30pm-6:00pm</b>
-                  </List.Item>
-
+                  <br></br>
                     <List.Item>
-                      *Friday Saturday & Sunday:
-                  </List.Item>
+                    <Icon color='gold' name='star' size='small'/>
+                          <b className="KGN3">Fri,Sat,Sun</b>
+                    <Icon color='gold' name='star' size='small'/>
+                      <br></br>
+                    </List.Item>
                     <List.Item>
                       *Additional open play times vary based on party bookings. Please check our schedule!
                   </List.Item>
@@ -127,7 +100,7 @@ class Schedules extends Component {
                 <p className='smooth'><b>Sensitive Space</b></p>
               </div>
               <div className="col-12 col-md-4">
-                <b>For all ages</b>
+                <b>(For all ages)</b>
               </div>
               <div className="col-12 col-md-4">
                 <b>*Sensitive Space will be held the 1st and 3rd Wednesday of every month from 4:45-6:45

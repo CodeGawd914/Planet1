@@ -120,13 +120,13 @@ class Footer extends Component {
 
       <div className="smooth12">
       <List className="w3-center-align w3-padding">
-      <List.Item>Monday 12am-8pm</List.Item>
+      <List.Item>Monday 12pm-6pm</List.Item>
       <List.Item>Tuesday Closed</List.Item>
       <List.Item>Wednesday 10am-4:30pm</List.Item>
-      <List.Item>Thursday 12am-8pm</List.Item>
-      <List.Item>Friday 3pm - 9pm</List.Item>
-      <List.Item>Saturday 11am -8pm</List.Item>
-      <List.Item>Sunday 11am -6pm</List.Item>
+      <List.Item>Thursday 12pm-8pm</List.Item>
+      <List.Item>Friday 3pm-9pm</List.Item>
+      <List.Item>Saturday 11am-8pm</List.Item>
+      <List.Item>Sunday 11am-6pm</List.Item>
       </List>
       </div>
 

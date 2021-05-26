@@ -45,13 +45,13 @@ class Contact extends Component {
                         <br></br>
                         <List.Item>Hours</List.Item>
                         <br></br>
-                        <List.Item>Monday 12am-8pm</List.Item>
+                        <List.Item>Monday 12pm-6pm</List.Item>
                         <List.Item>Tuesday Closed</List.Item>
                         <List.Item>Wednesday 10am-4:30pm</List.Item>
-                        <List.Item>Thursday 12am-8pm</List.Item>
-                        <List.Item>Friday 3pm - 9pm</List.Item>
-                        <List.Item>Saturday 11am -8pm</List.Item>
-                        <List.Item>Sunday 11am -6pm</List.Item>
+                        <List.Item>Thursday 12pm-8pm</List.Item>
+                        <List.Item>Friday 3pm-9pm</List.Item>
+                        <List.Item>Saturday 11am-8pm</List.Item>
+                        <List.Item>Sunday 11am-6pm</List.Item>
                     </List>
                     <div className="mt-30">
                         <a href="https://www.facebook.com/planetplayny" target="_blank">
