@@ -933,11 +933,11 @@ form.contact-form {
 .ui.menu.borderless.menu {
     margin: 0 !important;
 }
-.rbc-event {
+/* .rbc-event {
     max-width: 200px;
     padding: 7px 8px 4px;
     font-size: 15px;
-}
+} */
 
 /* Home popup */
 .ui.modal>.content {
@@ -1118,6 +1118,27 @@ form[data-format="inline"] button[type="submit"]:hover {
   width: 100%;
   margin: 4px 0;
 }
+/* Calendar */
+.Calendar-inner {
+  font-family: KGN;
+  background-color: #fff;
+  padding: 15px;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+}
+.Calendar-inner .rbc-event {
+  background: rgb(223,82,39);
+  background: linear-gradient(90deg, rgba(223,82,39,1) 0%, rgba(223,82,39,1) 40%, rgba(220,47,136,1) 100%);
+  border-radius: 0px;
+  color: #fff;
+}
+.Calendar-inner .rbc-event.rbc-selected {
+  background: #0f131b;
+}
+.Calendar-inner .rbc-show-more {
+  color: rgba(223,82,39,1);
+}
 /* Footer */
 footer .KGN a {
   font-weight: bold;
@@ -1194,6 +1215,21 @@ footer .KGN a {
   /* BdayParties */
   #Add .unstackable tr td {
       font-size: 12px;
+  }
+  /* Calendar */
+  .Calendar-inner {
+    overflow-x: auto ;
+  }
+  .Calendar-inner .rbc-month-view, 
+  .Calendar-inner .rbc-time-view, 
+  .Calendar-inner .rbc-agenda-view {
+      width: 800px;
+  }
+  .Calendar-inner .rbc-toolbar {
+      flex-direction: column;
+  }
+  .Calendar-inner .rbc-toolbar-label {
+    margin: 5px 0;
   }
   /* Footer */
   footer#footer.w3-padding-64 {
