@@ -81,7 +81,7 @@ class Schedules extends Component {
                   <br></br>
                     <List.Item>
                     <Icon color='gold' name='star' size='small'/>
-                          <b className="KGN3">Fri,Sat,Sun</b>
+                          <b>Fri,Sat,Sun</b>
                     <Icon color='gold' name='star' size='small'/>
                       <br></br>
                     </List.Item>

@@ -40,7 +40,7 @@ const BdayParties = () => {
                         </List>
 
                             description=
-                            <List className="w3-left-align, KGN1">
+                            <List className="w3-center-align, KGN1">
                                 <List.Item>-90 Minute Private Party</List.Item>
                                 <List.Item>-$10 Arcade Playing Card Per Child</List.Item>
                                 <List.Item>-250 Bonus Tickets for the Birthday Star</List.Item>
@@ -68,7 +68,7 @@ const BdayParties = () => {
                         </List>
 
                             description=
-                            <List className="w3-left-align KGN1">
+                            <List className="w3-center-align KGN1">
                                 <List.Item>-90 Minute Private Party</List.Item>
                                 <List.Item>-$15 Arcade Playing Card Per Child</List.Item>
                                 <List.Item>-750 Bonus Tickets for the Birthday Star</List.Item>
@@ -97,7 +97,7 @@ const BdayParties = () => {
                         </List>
 
                             description=
-                            <List className="w3-left-align, KGN1">
+                            <List className="w3-center-align, KGN1">
                                 <List.Item>-120 Minute Private Party</List.Item>
                                 <List.Item>-$20 Arcade Playing Card Per Child</List.Item>
                                 <List.Item>-1,000 Bonus Tickets for the Birthday Star</List.Item>
