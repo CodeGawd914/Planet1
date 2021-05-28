@@ -79,15 +79,17 @@ export default class Calendar extends React.Component {
 
     return (
       <div>
-        <h2 className="neon3h smooth w3-text-white">Calendar</h2>
+        <h2 className="neon3h smooth w3-text-white pt-2 pb-5">Calendar</h2>
+        <div className="Calendar-inner">
+            <BigCalendar
+                    style={{height: '800px'}}
+              localizer={localizer}
+              events={this.state.events}
+              startAccessor="start"
+              endAccessor="end"
+            />
+        </div>
 
-          <BigCalendar
-            style={{height: '800px'}}
-      localizer={localizer}
-      events={this.state.events}
-      startAccessor="start"
-      endAccessor="end"
-    />
 
       </div>
     );

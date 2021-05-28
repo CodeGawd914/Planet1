@@ -190,9 +190,7 @@ class Schedules extends Component {
           <br></br>
           <br></br>
           <div id='Calendar'>
-            <Segment color='blue' inverted attached>
-              <Calendar />
-            </Segment>
+          <Calendar />
           </div>
         </div>
       </div>
