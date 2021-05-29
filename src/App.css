@@ -1121,7 +1121,7 @@ form[data-format="inline"] button[type="submit"]:hover {
 /* Calendar */
 .Calendar-inner {
   font-family: KGN;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 1);
   padding: 15px;
   color: #000;
   font-weight: bold;

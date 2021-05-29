@@ -87,6 +87,7 @@ export default class Calendar extends React.Component {
               events={this.state.events}
               startAccessor="start"
               endAccessor="end"
+              defaultView='agenda'
             />
         </div>
 
