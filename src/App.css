@@ -1121,11 +1121,20 @@ form[data-format="inline"] button[type="submit"]:hover {
 /* Calendar */
 .Calendar-inner {
   font-family: KGN;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(112,238,74,0.8);
   padding: 15px;
   color: #000;
   font-weight: bold;
   text-align: left;
+}
+.Calendar-inner .rbc-today{
+  background-color: rgba(255,255,255,0.3  );
+}
+.Calendar-inner .rbc-off-range-bg{
+  background-color: rgba(0,0,0,0.2);
+}
+.Calendar-inner .rbc-off-range{
+  color: rgba(255, 255, 255, 0.6);
 }
 .Calendar-inner .rbc-event {
   background: rgb(223,82,39);
