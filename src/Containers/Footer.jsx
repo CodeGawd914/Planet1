@@ -75,8 +75,8 @@ class Footer extends Component {
             <Link to="/AboutUs#about"><List.Item>About Us </List.Item> </Link>
             <Link to="/AboutUs#policies"><List.Item>Policies</List.Item></Link>
             <Link to="/Waiver#wave"><List.Item>Waiver</List.Item></Link>
-            <Link to="/Schedules#Open"><List.Item>Schedule</List.Item></Link>
-            <Link to="/Schedules#Open"><List.Item>Open Play</List.Item></Link>
+            <Link to="/Schedules#openChart"><List.Item>Schedule</List.Item></Link>
+            <Link to="/Schedules#openChart"><List.Item>Open Play</List.Item></Link>
             <Link to="/Schedules#Calendar"><List.Item>Special Events</List.Item></Link>
             <Link to="/Schedules#Classes"><List.Item>Classes</List.Item></Link>
             <Link to="/Schedules#Calendar"><List.Item>Calendar</List.Item></Link>
@@ -101,7 +101,7 @@ class Footer extends Component {
           <Link to="/Contact#Start"><List.Item>Connect With Us</List.Item></Link>
           <List.Item> <a href="https://www.facebook.com/planetplayny" target="_blank">Facebook</a></List.Item>
           <List.Item> <a href="https://www.instagram.com/planetplayny" target="_blank">Instagram</a></List.Item>
-          <Link to="/Schedules#Open"><List.Item>Sensitive Space Hours</List.Item></Link>
+          <Link to="/Schedules#openChart"><List.Item>Sensitive Space Hours</List.Item></Link>
           <Link to="/home"><List.Item>Planet Play Home</List.Item></Link>
           <Link to='/Clean#hs1'><List.Item>Health & Safety</List.Item></Link>
           </List>

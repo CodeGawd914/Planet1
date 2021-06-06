@@ -18,7 +18,7 @@ class Schedules extends Component {
           <Grid id="card3" centered className="KGN" divided='vertically'>
             <Grid.Row columns={2}>
               <Grid.Column>
-                <h3 className="neon3h smooth w3-text-white">Open Play Schedule</h3>
+                <h3 id='openChart' className="neon3h smooth w3-text-white">Open Play Schedule</h3>
               </Grid.Column>
             </Grid.Row>
             <div className="row">
@@ -103,7 +103,7 @@ class Schedules extends Component {
                 <b>(For all ages)</b>
               </div>
               <div className="col-12 col-md-4">
-                <b>*Sensitive Space will be held the 1st and 3rd Wednesday of every month from 4:45-6:45
+                <b>*Sensitive Space will be held the 1st Wednesday of every month from 4:45-6:45 and the 3rd Saturday of every month from 8:45am-10:45am
   *</b>
               </div>
             </div>
@@ -154,12 +154,16 @@ class Schedules extends Component {
           </Grid>
 
           <br></br>
+            <Button as={Link} to='/Coming#top' id='card2'> <p className='neon1 smooth'>Reserve your open play session Now!</p></Button>
+
+          <br></br>
+          <br></br>
           <div id="VIP">
             <h1 className="neon3h smooth16">BUY A PLANET PASS AND SAVE!</h1>
             <h2 className="neon3h smooth16" ><b>$200</b></h2>
             <p className="KGN">Buy 10 open play sessions and get 2 free
   *Includes a $60 arcade game card*</p>
-            <Button as={Link} to='/Coming#top' id='card5'> <p className='neon1 smooth'>Buy Your Planet Pass Now !</p></Button>
+            <Button as={Link} to='/Coming#top' id='card5'> <p className='neon1 smooth'>Buy Your Planet Pass Now!</p></Button>
           </div>
           <br></br><br></br>
           <div>

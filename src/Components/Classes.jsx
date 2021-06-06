@@ -32,7 +32,7 @@ class Classes extends Component {
                                     </Card.Meta>
                                     <Image src={story}/>
                                     <br></br><br></br>
-                                    <Card.Content extra><span className='KGN date'><b>$325 per Semester</b></span></Card.Content>
+                                    <Card.Content extra><span className='KGN date'><b></b></span></Card.Content>
                                     <Card.Description>
                                         <p className="KGN"><b>Storytime and Connection is the perfect way to build and encourage a love for reading. Children
                                             will be exposed to a variety of children’s books each semester. They will learn to listen to read
@@ -57,12 +57,12 @@ class Classes extends Component {
 
                                 <Table.Body className='smooth12'>
                                     <Table.Row>
-                                        <Table.Cell textAlign='center'><p>Cosmic Kids</p> <p className="KGN"><b>2:00-2:45</b></p></Table.Cell>
-                                        <Table.Cell textAlign='center'><p>Storytime & Connection</p> <p className="KGN"><b>10:15-11:00</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Storytime & Connection</p> <p className="KGN"><b>12pm-12:45pm</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Cosmic Kids</p><br></br> <p className="KGN"><b>10:15am-11pm</b></p></Table.Cell>
                                     </Table.Row>
                                     <Table.Row>
-                                        <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>5:30-6:15</b></p></Table.Cell>
-                                        <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Messy Play</p><br></br> <p className="KGN"><b>4:45pm-5:30pm</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>1pm-1:45pm</b></p></Table.Cell>
                                     </Table.Row>
                                 </Table.Body>
                             </Table>
@@ -79,11 +79,8 @@ class Classes extends Component {
 
                                 <Table.Body className='smooth12'>
                                     <Table.Row>
-                                        <Table.Cell textAlign='center'><p>Special Needs Art & Play</p> <p className="KGN"><b>1:00-1:45</b></p></Table.Cell>
-                                        <Table.Cell textAlign='center'><p>Messy Play</p> <p className="KGN"><b>4:15-5:00</b></p></Table.Cell>
-                                    </Table.Row>
-                                    <Table.Row>
-                                    <Table.Cell textAlign='center'><p>Blast Into Learning</p> <p className="KGN"><b>6:00-6:45</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Special Needs Art & Play</p> <p className="KGN"><b>1pm-1:45pm</b></p></Table.Cell>
+                                        <Table.Cell textAlign='center'><p>Messy Play</p> <br></br><p className="KGN"><b>4:15-5pm</b></p></Table.Cell>
                                     </Table.Row>
                                 </Table.Body>
                             </Table>
@@ -98,7 +95,7 @@ class Classes extends Component {
                                     </Card.Meta>
                                     <Image src={class1}/>
                                     <br></br><br></br>
-                                    <Card.Content extra><span className='KGN date'><b>$380 per Semester</b></span></Card.Content>
+                                    <Card.Content extra><span className='KGN date'><b></b></span></Card.Content>
                                     <Card.Description>
                                         <p className="KGN"><b>Blast into Learning is a preschool and kindergarten readiness program that will help your three or four year-old learn foundational skills, in an engaging and age appropriate manner. This is a toddler class unlike any other on Long Island. Our curriculum has been designed specifically for Planet Play by a NYS certified teacher and curriculum designer. School based learning and activities will be taught through hands-on thematic units. Each semester will cover two different units, allowing you to complete a full year of learning without ever repeating a course!</b></p>
                                     </Card.Description>
@@ -115,7 +112,7 @@ class Classes extends Component {
                                     </Card.Meta>
                                     <Image src={messy}/>
                                     <br></br><br></br>
-                                    <Card.Content extra><span className='KGN date'><b>$300 per Semester</b></span></Card.Content>
+                                    <Card.Content extra><span className='KGN date'><b></b></span></Card.Content>
                                     <Card.Description>
                                         <p className="KGN"><b>Messy Play is a dress for mess type of class! Children will explore a selection of tactile and messy play materials. We will engage their senses, encourage creativity, and have a blast all while getting messy. There is shaving cream, paint, play doh, glitter, stickers, and more! The best part, the staff at Planet Play will do all the cleaning afterwards!</b></p>
                                     </Card.Description>
@@ -132,7 +129,7 @@ class Classes extends Component {
                                     </Card.Meta>
                                     <Image src={cosmickids}/>
                                     <br></br><br></br>
-                                    <Card.Content extra><span className='KGN date'><b>$300 per Semester</b></span></Card.Content>
+                                    <Card.Content extra><span className='KGN date'><b></b></span></Card.Content>
                                     <Card.Description>
                                         <p className="KGN"><b>Cosmic Kids is a program designed for our youngest space cadets. Through music, stories,
                                             movement, games and more, your little one will learn to build confidence,  develop social skills,
@@ -151,7 +148,7 @@ class Classes extends Component {
                                     </Card.Meta>
                                     <Image src={special}/>
                                     <br></br><br></br>
-                                    <Card.Content extra><span className='KGN date'><b>$336 per Semester</b></span></Card.Content>
+                                    <Card.Content extra><span className='KGN date'><b></b></span></Card.Content>
                                     <Card.Description>
                                         <p className="KGN">
                                             <b>Special Needs Art and Play is a safe space for children of all abilities to participate in craft
