@@ -13,8 +13,8 @@ export function getEvents (callback) {
       if (!err) {
         const events = []
         JSON.parse(resp.text).items.map((event) => {
-          var sssDate = event.status === "cancelled" ? moment(): event.start.dateTime;
-          var eeeDate =  event.status === "cancelled" ? moment() : event.end.dateTime;
+          var sssDate = event.status === "cancelled" ? moment(): (event.start.date || event.start.dateTime);
+          var eeeDate =  event.status === "cancelled" ? moment() : (event.end.date || event.end.dateTime);
           var sDate = new Date(sssDate);
           var eDate = new Date(eeeDate);
           events.push({
