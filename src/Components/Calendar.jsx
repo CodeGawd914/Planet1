@@ -80,7 +80,10 @@ export default class Calendar extends React.Component {
     return (
       <div>
         <h2 className="neon3h smooth w3-text-white pt-2 pb-5">Calendar</h2>
-        <div className="Calendar-inner">
+        <div className="Calendar-inner embed">
+          <iframe src="https://calendar.google.com/calendar/embed?src=h4k7h4j0jjbqm83tjcis960hk4%40group.calendar.google.com&ctz=America%2FNew_York"  width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+        </div>
+        {/* <div className="Calendar-inner">
             <BigCalendar
                     style={{height: '800px'}}
               localizer={localizer}
@@ -89,7 +92,7 @@ export default class Calendar extends React.Component {
               endAccessor="end"
               defaultView='agenda'
             />
-        </div>
+        </div> */}
 
 
       </div>
