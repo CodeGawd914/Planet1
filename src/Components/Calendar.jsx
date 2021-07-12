@@ -28,7 +28,7 @@ export default class Calendar extends React.Component {
     return (
       <div>
         <h2 className="neon3h smooth w3-text-white pt-2 pb-5">Calendar</h2>
-        <div className="Calendar-inner">
+        <div className="calendar-main-inner">
           <Calendar1 apiKey={API_KEY} calendars={calendars} styles={styles} showFooter="false" />
         </div>
       </div>
