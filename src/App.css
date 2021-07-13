@@ -1156,11 +1156,14 @@ form[data-format="inline"] button[type="submit"]:hover {
 }
 .calendar-main-inner {
   font-family: "KGN" !important;
-  background-color: rgba(112,238,74,0.8);
-  color: #000;
+  /* background-color: rgba(112,238,74,0.8); */
+  color: #fff;
   padding: 15px;
   font-weight: bold;
   text-align: left;
+}
+.calendar-main-inner .calendar-footer div:last-child{
+  display: none !important;
 }
 .calendar-main-inner h2.calendar-title,
 .calendar-main-inner .calendar-footer,
@@ -1168,15 +1171,15 @@ form[data-format="inline"] button[type="submit"]:hover {
 .day > span  {
   font-family: "KGN" !important;
   font-size: 16px;
-  color: #000;
+  color: #fff;
   font-weight: bold;
 }
 .calendar-main-inner .isEvent {
   margin-bottom: 1px;
 }
 .calendar-main-inner .css-6p5nqc-Event-Event {
-  background: rgb(223,82,39);
-  background: linear-gradient(90deg, rgba(223,82,39,1) 0%, rgba(223,82,39,1) 40%, rgba(220,47,136,1) 100%);
+  /* background: rgb(223,82,39); */
+  /* background: linear-gradient(90deg, rgba(223,82,39,1) 0%, rgba(223,82,39,1) 40%, rgba(220,47,136,1) 100%); */
   border-radius: 0px;
   color: #fff;
   margin-bottom: 1px;
@@ -1186,7 +1189,7 @@ form[data-format="inline"] button[type="submit"]:hover {
   background: linear-gradient(90deg, rgba(223,82,39,1) 0%, rgba(223,82,39,1) 40%, rgba(220,47,136,1) 100%);
   border-radius: 0px;
 }
-.calendar-main-inner .css-6p5nqc-Event-Event span {
+.calendar-main-inner .css-6p5nqc-Event-Event span:not(:first-child) {
   color: #fff;
   font-size: 12px;
   font-family: system-ui, sans-serif;
