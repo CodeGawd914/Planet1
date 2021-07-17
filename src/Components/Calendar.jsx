@@ -1,36 +1,100 @@
 import React from "react";
-import Calendar1 from "@ericz1803/react-google-calendar";
-import { css } from "@emotion/react";
-const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
-const API_KEY = process.env.REACT_APP_API_KEY;
-require('dotenv').config();
+// import moment from 'moment'
+import {Table} from 'semantic-ui-react'
+import BigCalendar from 'react-big-calendar'
+import moment from "moment-timezone";
+import 'react-big-calendar/lib/css/react-big-calendar.css';
+import { getEvents } from '../gcal'
 
-let calendars = [
-  { calendarId: CALENDAR_ID}
-];
-
-let styles = {
-  //you can use object styles
-  Calendar1: {
-    borderWidth: "3px" //make outer edge of calendar thicker
-  },
-
-  //you can also use emotion's string styles (remember to add the line 'import { css } from "@emotion/react";')
-  today: css`
-    /* highlight today by making the text red and giving it a red border */
-    color: red;
-    border: 1px solid red;
-  `
-};
+const localizer = BigCalendar.momentLocalizer(moment)
 
 export default class Calendar extends React.Component {
+  state = {
+        dateObject: moment(),
+        events:[]
+    }
+
+    componentDidMount () {
+    getEvents((events) => {
+      this.setState({events})
+    })
+  }
+
+    firstDayOfMonth = () => {
+    let dateObject = this.state.dateObject;
+    let firstDay = moment(dateObject)
+                 .startOf("month")
+                 .format("d");
+   return firstDay;
+};
+
+
+    daysInMonth = ()=>{
+      let dateObject = this.state.dateObject;
+      let numberofDays = moment(dateObject).daysInMonth()
+      return numberofDays
+    }
   render() {
+    console.log(this.state);
+    let weekdaysShort = moment.weekdaysShort()
+    console.log(weekdaysShort);
+
+    let weekdayNames = weekdaysShort.map(day =>
+        <Table.HeaderCell>{day}</Table.HeaderCell>
+     )
+
+     let blanks = [];
+      for (let i = 0; i < this.firstDayOfMonth(); i++) {
+        blanks.push(
+        <Table.Cell>{""}</Table.Cell>
+        );
+      }
+
+      let daysInMonth = [];
+        for (let d = 1; d <= this.daysInMonth(); d++) {
+          daysInMonth.push(
+            <Table.Cell key={d}>{d}</Table.Cell>
+      );
+    }
+
+      const totalSlots = [...blanks, ...daysInMonth];
+      let rows = [];
+      let cells = [];
+
+      totalSlots.forEach((row, i) => {
+        if (i % 7 !== 0) {
+          cells.push(row); // if index not equal 7 that means not go to next week
+        } else {
+          rows.push(cells); // when reach next week we contain all td in last week to rows
+          cells = []; // empty container
+          cells.push(row); // in current loop we still push current row to new container
+        }
+        if (i === totalSlots.length - 1) { // when end loop we add remain date
+        rows.push(cells);
+          }
+        });
+        let daysinmonth = rows.map((d, i) => {
+      return <Table.Row>{d}</Table.Row>;
+    });
+
+        let myEventsList = []
+
     return (
       <div>
         <h2 className="neon3h smooth w3-text-white pt-2 pb-5">Calendar</h2>
-        <div className="calendar-main-inner">
-          <Calendar1 apiKey={API_KEY} calendars={calendars} styles={styles} showFooter="false" />
+        <div className="Calendar-inner">
+            <BigCalendar
+                    style={{height: '800px'}}
+                    format={"DD/MM/YYYY HH:mm"} 
+              localizer={localizer}
+              events={this.state.events}
+              startAccessor="start"
+              endAccessor="end"
+              defaultView='agenda'
+            />
         </div>
+
+
       </div>
     );
   }
