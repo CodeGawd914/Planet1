@@ -13,7 +13,7 @@ export default class Calendar extends React.Component {
   state = {
     dateObject: moment(),
     events: [],
-    url: ''
+    url: '',
   }
 
   componentDidMount() {
@@ -39,7 +39,8 @@ export default class Calendar extends React.Component {
         <h2 className="neon3h smooth w3-text-white pt-2 pb-5">Calendar</h2>
         <div className="Calendar-inner embed">
           <div className="scrollWrapper">
-            <iframe src={this.state.url} width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+            {/* <iframe src={this.state.url} width="100%" height="800" frameborder="0" scrolling="no"></iframe> */}
+            <iframe src="https://calendar.google.com/calendar/embed?src=h4k7h4j0jjbqm83tjcis960hk4%40group.calendar.google.com&ctz=America%2FNew_York&mode=agenda" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       </div>
