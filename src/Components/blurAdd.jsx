@@ -32,6 +32,7 @@ export default class BlurAdd extends Component {
   render() {
     return (
       <Modal
+      closeIcon
         open={this.state.modalOpen}
         onClose={this.handleClose}
         basic
