@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "11a797ee1c6ff2407273",
-    "url": "/static/css/main.8b9a50d0.chunk.css"
+    "revision": "9faf59f1fc6d6e5e4e40",
+    "url": "/static/css/main.6677231a.chunk.css"
   },
   {
-    "revision": "11a797ee1c6ff2407273",
-    "url": "/static/js/main.b4d466f4.chunk.js"
+    "revision": "9faf59f1fc6d6e5e4e40",
+    "url": "/static/js/main.9f75bc08.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "75f7fde816d1a80e62fb",
+    "revision": "cf8f8ad0a210a8e8e103",
     "url": "/static/css/2.a8bd8982.chunk.css"
   },
   {
-    "revision": "75f7fde816d1a80e62fb",
-    "url": "/static/js/2.23c5ca0f.chunk.js"
+    "revision": "cf8f8ad0a210a8e8e103",
+    "url": "/static/js/2.527e0201.chunk.js"
   },
   {
     "revision": "68db50981e3ce1c94036eb9e24c9308d",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/Gilroy-Medium.a8651425.otf"
   },
   {
-    "revision": "f04079255667b33f868b8b2fa42bf113",
+    "revision": "ccb1c7d034617235490b658727118422",
     "url": "/index.html"
   }
 ];

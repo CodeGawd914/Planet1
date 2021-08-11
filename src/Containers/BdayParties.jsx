@@ -184,19 +184,19 @@ const BdayParties = () => {
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>Regular Pie</Table.Cell>
-                            <Table.Cell>$15</Table.Cell>
+                            <Table.Cell>$18</Table.Cell>
                             <Table.Cell>Sicilian Pie</Table.Cell>
-                            <Table.Cell>$16</Table.Cell>
+                            <Table.Cell>$19</Table.Cell>
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>Pepperoni Pie</Table.Cell>
-                            <Table.Cell>$19</Table.Cell>
+                            <Table.Cell>$20</Table.Cell>
                             <Table.Cell>Bruschetta Pie</Table.Cell>
-                            <Table.Cell>$22</Table.Cell>
+                            <Table.Cell>$24</Table.Cell>
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>Veggie Pie</Table.Cell>
-                            <Table.Cell>$22</Table.Cell>
+                            <Table.Cell>$24</Table.Cell>
                             <Table.Cell>Stuffed Knots: Either spinach, sausage, or pepperoni (each)</Table.Cell>
                             <Table.Cell>$1.50</Table.Cell>
                         </Table.Row>
@@ -204,13 +204,13 @@ const BdayParties = () => {
                             <Table.Cell>Garlic Knots-half tray</Table.Cell>
                             <Table.Cell>$35</Table.Cell>
                             <Table.Cell>Garlic Knots- full tray</Table.Cell>
-                            <Table.Cell>$45</Table.Cell>
+                            <Table.Cell>$47</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>House/Caesar Salad half tray</Table.Cell>
+                            <Table.Cell>House/Caesar Salad half tray (serves 6-8)</Table.Cell>
                             <Table.Cell>$25</Table.Cell>
-                            <Table.Cell>House/Caesar Salad full tray </Table.Cell>
-                            <Table.Cell>$40</Table.Cell>
+                            <Table.Cell>House/Caesar Salad full tray (serves 10-12) </Table.Cell>
+                            <Table.Cell>$43</Table.Cell>
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>Chicken Fingers half tray</Table.Cell>
@@ -227,7 +227,13 @@ const BdayParties = () => {
                           <Table.Row>
                           <Table.Cell>2 Liter of Soda</Table.Cell>
                           <Table.Cell>$4</Table.Cell>
+                          <Table.Cell>Gallon of Water</Table.Cell>
+                          <Table.Cell>$4</Table.Cell>
                         </Table.Row>
+                        <Table.Row>
+                        <Table.Cell>Custom Theme</Table.Cell>
+                        <Table.Cell>$85</Table.Cell>
+                      </Table.Row>
                     </Table.Body>
                 </Table>
             </div>

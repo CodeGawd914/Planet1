@@ -61,7 +61,7 @@ class Schedules extends Component {
                     <b>Thurs </b><Icon color='gold' name='star' size='small'/><b> 4pm-6pm </b><Icon color='gold' name='star' size='small'/><b>6pm-8pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>*Fri </b> <Icon color='gold' name='star' size='small'/><b> 2:30pm-4:30pm </b><Icon color='gold' name='star' size='small'/>
+                    <b>*Fri </b> <Icon color='gold' name='star' size='small'/><b> 3pm-5pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
                     <b>*Sat </b>  <Icon color='gold' name='star' size='small'/><b> 6pm-8pm </b><Icon color='gold' name='star' size='small'/>
@@ -86,7 +86,7 @@ class Schedules extends Component {
                       <br></br>
                     </List.Item>
                     <List.Item>
-                      *Additional open play times vary based on party bookings. Please check our schedule!
+                      *Additional open play times vary based on party bookings. Please check our calendar!
                   </List.Item>
                   </b>
                 </List>
