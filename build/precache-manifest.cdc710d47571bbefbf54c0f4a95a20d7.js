@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9faf59f1fc6d6e5e4e40",
+    "revision": "93b3e8f7f47d755f9a48",
     "url": "/static/css/main.6677231a.chunk.css"
   },
   {
-    "revision": "9faf59f1fc6d6e5e4e40",
-    "url": "/static/js/main.9f75bc08.chunk.js"
+    "revision": "93b3e8f7f47d755f9a48",
+    "url": "/static/js/main.9e2e844b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/Gilroy-Medium.a8651425.otf"
   },
   {
-    "revision": "ccb1c7d034617235490b658727118422",
+    "revision": "3488906350072e84c479d2db9050a736",
     "url": "/index.html"
   }
 ];
