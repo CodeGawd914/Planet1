@@ -36,7 +36,7 @@ export default class Calendar extends React.Component {
   render() {
     return (
       <div>
-        <h2 className="neon3h smooth w3-text-white pt-2 pb-5">Calendar</h2>
+        <h2 className="neon3h smoothb w3-text-white pt-2 pb-5">Calendar</h2>
         <div className="Calendar-inner embed">
           <div className="scrollWrapper">
             {/* <iframe src={this.state.url} width="100%" height="800" frameborder="0" scrolling="no"></iframe> */}

@@ -15,20 +15,20 @@ class Schedules extends Component {
         <div className="container">
           <br></br>
           <br></br>
-          <Grid id="card3" centered className="KGN" divided='vertically'>
+          <Grid id="card3" centered className="KGNb" divided='vertically'>
             <Grid.Row columns={2}>
               <Grid.Column>
-                <h3 id='openChart' className="neon3h smooth w3-text-white">Open Play Schedule</h3>
+                <h3 id='openChart' className="neon3h smoothb w3-text-white">Open Play Schedule</h3>
               </Grid.Column>
             </Grid.Row>
             <div className="row">
               <div className="col-12 col-md-4">
-                <p><b className='smooth'>Mini Milky Way</b></p>
+                <p><b className='smoothb'>Mini Milky Way</b></p>
               </div>
               <div className="col-12 col-md-4">
-                <b className=" KGN w3-left-align">(Up to 7 years old)</b>
+                <b className=" KGNb w3-left-align">(Up to 7 years old)</b>
               </div>
-              <div className="col-12 col-md-4 KGN">
+              <div className="col-12 col-md-4 KGNb">
                 <List.Item>
                   <b>Mon </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b>
                 </List.Item>
@@ -43,7 +43,7 @@ class Schedules extends Component {
 
             <div className="row">
               <div className="col-12 col-md-4">
-                <p className='smooth'><b>All Age Astronauts</b></p>
+                <p className='smoothb'><b>All Age Astronauts</b></p>
               </div>
               <div className="col-12 col-md-4">
                 <b>(For all ages)</b>
@@ -61,23 +61,16 @@ class Schedules extends Component {
                     <b>Thurs </b><Icon color='gold' name='star' size='small'/><b> 4pm-6pm </b><Icon color='gold' name='star' size='small'/><b>6pm-8pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>*Fri </b> <Icon color='gold' name='star' size='small'/><b> 3pm-5pm </b><Icon color='gold' name='star' size='small'/>
+                    <b>Fri </b> <Icon color='gold' name='star' size='small'/><b> 3pm-5pm </b><Icon color='gold' name='star' size='small'/>
+                  <b> 5pm-7pm </b><Icon color='gold' name='star' size='small'/><b> 7pm-9pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>*Sat </b>  <Icon color='gold' name='star' size='small'/><b> 6pm-8pm </b><Icon color='gold' name='star' size='small'/>
+                    <b>Sat </b>  <Icon color='gold' name='star' size='small'/><b> 4:30pm-6:30pm </b><Icon color='gold' name='star' size='small'/><b> 6:30pm-8:30pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
-                    <b>*Sun </b>  <Icon color='gold' name='star' size='small'/><b> 4pm-6pm </b><Icon color='gold' name='star' size='small'/>
+                    <b>Sun </b>  <Icon color='gold' name='star' size='small'/><b> 2:30pm-4:30pm </b><Icon color='gold' name='star' size='small'/><b> 4:30pm-6:30pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <br></br>
-
-
-                  <List.Item>
-                  <b>Fri Night </b> <Icon color='gold' name='star' size='small'/><b> 7pm-9pm </b><Icon color='gold' name='star' size='small'/>
-                  </List.Item>
-                  <List.Item>
-                    <b>Arcade only (tweens welcome)</b>
-                  </List.Item>
                   <br></br>
                     <List.Item>
                     <Icon color='gold' name='star' size='small'/>
@@ -86,7 +79,7 @@ class Schedules extends Component {
                       <br></br>
                     </List.Item>
                     <List.Item>
-                      *Additional open play times vary based on party bookings. Please check our calendar!
+                      *Open play times vary based on party bookings. Please check our <Link to="/Schedules#Calendar">calendar</Link>!
                   </List.Item>
                   </b>
                 </List>
@@ -97,7 +90,7 @@ class Schedules extends Component {
 
             <div className="row">
               <div className="col-12 col-md-4">
-                <p className='smooth'><b>Sensitive Space</b></p>
+                <p id="SS" className='smoothb'><b>Sensitive Space</b></p>
               </div>
               <div className="col-12 col-md-4">
                 <b>(For all ages)</b>
@@ -110,9 +103,9 @@ class Schedules extends Component {
           </Grid>
           <br></br>
           <br></br>
-          <p className="KGN">*Schedule is subject to change due to holidays and school breaks. Always check our calendar prior to coming for open play.*</p>
-          <p className="KGN">*Reservations are required for all sessions. Book your spot by phone or online.*</p>
-          <p className="KGN">*Walk-ins permitted based on availabity!*</p>
+          <p className="KGNb">*Schedule is subject to change due to holidays and school breaks. Always check our <Link to="/Schedules#Calendar">calendar</Link> prior to coming for open play.*</p>
+          <p className="KGNb">*Reservations are not required but suggested, especially for weekend slots.*</p>
+          <p className="KGNb">*Walk-ins permitted based on availabity!*</p>
 
 
 
@@ -120,14 +113,14 @@ class Schedules extends Component {
           <br></br>
           <Grid id="card2" columns='equal'>
             <Grid.Column>
-              <h3 className="neon3h smooth w3-text-white">Open Play Pricing</h3>
+              <h3 className="neon3h smoothb w3-text-white">Open Play Pricing</h3>
             </Grid.Column>
             <Grid.Column>
-              <h3 className=" KGN w3-text-white"><b>Open play includes 2 hours of play in the entire facility plus a $5 arcade game card</b></h3>
+              <h3 className=" KGNb w3-text-white"><b>Open play includes 2 hours of play in the entire facility plus a $5 arcade game card</b></h3>
             </Grid.Column>
           </Grid>
 
-          <Grid className="KGN" columns='equal'>
+          <Grid className="KGNb" columns='equal'>
             <Grid.Column>
               <b>Regular Admission</b>
             </Grid.Column>
@@ -136,7 +129,7 @@ class Schedules extends Component {
             </Grid.Column>
           </Grid>
 
-          <Grid className="KGN" columns='equal'>
+          <Grid className="KGNb" columns='equal'>
             <Grid.Column>
               <b>Crawlers</b>
             </Grid.Column>
@@ -144,7 +137,7 @@ class Schedules extends Component {
               <b>$15</b>
             </Grid.Column>
           </Grid>
-          <Grid className="KGN" columns='equal'>
+          <Grid className="KGNb" columns='equal'>
             <Grid.Column>
               <b>Adults</b>
             </Grid.Column>
@@ -154,39 +147,38 @@ class Schedules extends Component {
           </Grid>
 
           <br></br>
-            <Button as={Link} to='/Coming#top' id='card2'> <p className='neon1 smooth'>Reserve your open play session Now!</p></Button>
+            <Button as={Link} to='/Coming#top' id='card2'> <p className='neon1 smoothb'>Reserve your open play session Now!</p></Button>
 
           <br></br>
           <br></br>
           <div id="VIP">
             <h1 className="neon3h smooth16">BUY A PLANET PASS AND SAVE!</h1>
             <h2 className="neon3h smooth16" ><b>$200</b></h2>
-            <p className="KGN">Buy 10 open play sessions and get 2 free
+            <p className="KGNb">Buy 10 open play sessions and get 2 free
   *Includes a $60 arcade game card*</p>
-            <Button as={Link} to='/Coming#top' id='card5'> <p className='neon1 smooth'>Buy Your Planet Pass Now!</p></Button>
+            <Button as={Link} to='/Coming#top' id='card5'> <p className='neon1 smoothb'>Buy Your Planet Pass Now!</p></Button>
           </div>
           <br></br><br></br>
           <div>
-            <h1 className='neon3h smooth w3-text-white'> Mini Milky Way Playtime</h1>
-            <p className="w3-left-align KGN">
+            <h1 className='neon3h smoothb w3-text-white'> Mini Milky Way Playtime</h1>
+            <p className="w3-left-align KGNb">
               Mini Milky Way Playtime offers 2 hours where children 7 years of age and younger can have the facility to themselves to play, climb, explore and more! Our youngest cadets will be full of smiles while they socialize and get some exercise.
             <br></br>
-              <p className='w3-center'><i>Please be advised that we will not allow children over the age of 7 in the facility at this time,</i>
-              </p>
+
             </p>
             <br></br>
-            <h1 className='neon3h smooth w3-text-white'> All Age Astronauts Playtime</h1>
-            <p className="w3-left-align KGN">
+            <h1 className='neon3h smoothb w3-text-white'> All Age Astronauts Playtime</h1>
+            <p className="w3-left-align KGNb">
               All Age Astronauts offers 2 hours where children of all ages can come and play in our facility. With a variety of attractions, we have something for everyone. A toddler section, arcade, bounce house, and jungle gym, are sure to keep your entire family entertained!
           </p>
             <br></br>
-            <h1 className='neon3h smooth w3-text-white'>Sensitive Space Playtime</h1>
-            <p className="w3-left-align KGN"> Sensitive Space offers 2 hours where peers with similar abilities can engage in functional play, have fun, and just be themselves without judgement. Children of all ages can strengthen their social skills and explore in sensory fun, whether it’s climbing through our 700 square foot jungle gym, or bouncing on our inflatable. Noise reduction headphones will be offered along with lower music, dimmed lights, and no loud ball blaster. Experienced staff will help to engage our special children and their siblings to have a BLAST in our clean and safe environment!
+            <h1 className='neon3h smoothb w3-text-white'>Sensitive Space Playtime</h1>
+            <p className="w3-left-align KGNb"> Sensitive Space offers 2 hours where peers with similar abilities can engage in functional play, have fun, and just be themselves without judgement. Children of all ages can strengthen their social skills and explore in sensory fun, whether it’s climbing through our 700 square foot jungle gym, or bouncing on our inflatable. Noise reduction headphones will be offered along with lower music, dimmed lights, and no loud ball blaster. Experienced staff will help to engage our special children and their siblings to have a BLAST in our clean and safe environment!
           </p>
           </div>
           <br></br><br></br>
           <div id='Classes'>
-            <h1 className="neon3h smooth w3-text-white">Class Information</h1>
+            <h1 className="neon3h smoothb w3-text-white">Class Information</h1>
             <Classes />
           </div>
           <br></br>

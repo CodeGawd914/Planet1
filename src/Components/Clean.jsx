@@ -10,7 +10,7 @@ class Clean extends Component {
   render() {
     return (
       <div className="container">
-        <div id='hs1' className='KGN'>
+        <div id='hs1' className='KGNb'>
         <br></br>
         <br></br>
             Here at Planet Play, we prioritize health and safety. Please see our cleaning protocol, along with information regarding the products we have chosen to use to protect our facility.

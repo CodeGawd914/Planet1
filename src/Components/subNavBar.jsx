@@ -26,7 +26,7 @@ const SubNavBar = () => {
                 <Dropdown.Item as={Link} text="Open Play" to="/Schedules#Open"/>
                 <Dropdown.Item as={Link} text="Classes" to="/Schedules#Classes"/>
                 <Dropdown.Item as={Link} text="Calendar" to='/Schedules#Calendar'/>
-                <Dropdown.Item as={Link} text="Sensitive Space Hours" to='/Schedules#Open'/>
+                <Dropdown.Item as={Link} text="Sensitive Space Hours" to='/Schedules#SS'/>
               </Dropdown.Menu>
             </Dropdown>
           <Dropdown item text='Birthday Parties'>
@@ -45,6 +45,7 @@ const SubNavBar = () => {
               <Dropdown.Item as={Link} text='Cosmic Cafe' to='/Attractions#Cosmic'/>
             </Dropdown.Menu>
           </Dropdown>
+          <Menu.Item as={Link} to='/Schedules#Classes'  name='Classes'/>
           <Menu.Item as={Link} to='/Contact'  name='Connect With Us'/>
           </Menu.Menu>
         </Menu>
