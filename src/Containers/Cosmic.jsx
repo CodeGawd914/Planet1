@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {Grid, Image, Card, Icon, Segment} from 'semantic-ui-react'
 import logo from '../images/logo-round.jpg'
-import cosmic1 from '../images/cosmic1.jpg'
 import cosmic2 from '../images/cosmic2.jpg'
 import coffee from '../images/coffe.jpg'
+import cafe1 from '../images/cafe1.jpeg'
+import cafe2 from '../images/cafe2.jpeg'
 
 class Cosmic extends Component {
 
@@ -26,16 +27,23 @@ class Cosmic extends Component {
 
         <Grid.Row centered columns={3}>
           <div className="col-md-4">
-            <Image src={cosmic1} />
-          </div>
-          <div className="col-md-4">
           <Image src={coffee} />
           </div>
+          <div className="col-md-4"></div>
           <div className="col-md-4">
             <Image src={cosmic2}/>
           </div>
         </Grid.Row>
 
+        <Grid.Row centered columns={3}>
+          <div className="col-md-4">
+          <Image src={cafe1} />
+          </div>
+          <div className="col-md-4"></div>
+          <div className="col-md-4">
+            <Image src={cafe2}/>
+          </div>
+        </Grid.Row>
       </Segment>
       </React.Fragment>
 

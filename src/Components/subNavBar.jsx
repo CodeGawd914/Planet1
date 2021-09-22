@@ -14,8 +14,9 @@ const SubNavBar = () => {
       </Link>
           <Menu.Menu unstackable position='right' className='smooth'>
 
-            <Dropdown as={Link} item text='About Us' to="/AboutUs">
+            <Dropdown item text='About Us' to="/AboutUs">
               <Dropdown.Menu>
+                <Dropdown.Item as={Link} text='About' to='/AboutUs'/>
                 <Dropdown.Item as={Link} text='Policies' to='/AboutUs#policies'/>
                 <Dropdown.Item as={Link} text='Waiver' to='/Waiver'/>
                 <Dropdown.Item as={Link} text='Health & Safety'to='/Clean'/>
@@ -24,7 +25,6 @@ const SubNavBar = () => {
             <Dropdown item text='Schedule'>
               <Dropdown.Menu>
                 <Dropdown.Item as={Link} text="Open Play" to="/Schedules#Open"/>
-                <Dropdown.Item as={Link} text="Classes" to="/Schedules#Classes"/>
                 <Dropdown.Item as={Link} text="Calendar" to='/Schedules#Calendar'/>
                 <Dropdown.Item as={Link} text="Sensitive Space Hours" to='/Schedules#SS'/>
               </Dropdown.Menu>
@@ -45,7 +45,7 @@ const SubNavBar = () => {
               <Dropdown.Item as={Link} text='Cosmic Cafe' to='/Attractions#Cosmic'/>
             </Dropdown.Menu>
           </Dropdown>
-          <Menu.Item as={Link} to='/Schedules#Classes'  name='Classes'/>
+          <Menu.Item as={Link} to='/Classes'  name='Classes'/>
           <Menu.Item as={Link} to='/Contact'  name='Connect With Us'/>
           </Menu.Menu>
         </Menu>

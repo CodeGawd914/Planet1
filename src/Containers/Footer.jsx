@@ -125,8 +125,8 @@ class Footer extends Component {
       <List.Item>Wednesday 10am-4:30pm</List.Item>
       <List.Item>Thursday 12pm-8pm</List.Item>
       <List.Item>Friday 3pm-9pm</List.Item>
-      <List.Item>Saturday 11am-8pm</List.Item>
-      <List.Item>Sunday 11am-6pm</List.Item>
+      <List.Item>Saturday 11am-8:30pm</List.Item>
+      <List.Item>Sunday 11am-6:30pm</List.Item>
       </List>
       </div>
 

@@ -36,15 +36,15 @@ const BdayParties = () => {
                             meta=<List className="neon1h">
                             <List.Item>$599 plus tax & gratuity</List.Item>
                             <List.Item>10 Children plus the Birthday Star</List.Item>
-                            <List.Item>($25 per additional child)</List.Item>
+                            <List.Item className="smooth">($25 per additional child)</List.Item>
 
                         </List>
 
                             description=
-                            <List className="w3-center-align, KGN1">
+                            <List className="w3-center-align, KGN1"><b>
                                 <List.Item>-90 Minute Private Party</List.Item>
                                 <List.Item>-$10 Arcade Playing Card Per Child</List.Item>
-                                <List.Item>-250 Bonus Tickets for the Birthday Star</List.Item>
+                                <List.Item>-200 Bonus Tickets for the Birthday Star</List.Item>
                                 <List.Item>-Free Ticket Blaster Experience for the Birthday Star</List.Item>
                                 <List.Item>-Planet Play Shirt Signed by Guests for the Birthday Star</List.Item>
                                 <List.Item>-15-minute appearance from our very own Astro the Alien</List.Item>
@@ -52,7 +52,7 @@ const BdayParties = () => {
                                 <List.Item>-Pizza, Juice, and Cupcakes (nut-free) for Each Child</List.Item>
                                 <List.Item>-Goody Bags for Each Child</List.Item>
                                 <List.Item>-Five Out of This World Party Hosts</List.Item>
-
+                                </b>
                             </List>
 
                             />
@@ -65,24 +65,24 @@ const BdayParties = () => {
                             meta=<List className="neon1h">
                             <List.Item>$799 plus tax & gratuity</List.Item>
                             <List.Item>15 children plus the Birthday Star</List.Item>
-                            <List.Item>($27 per additional child)</List.Item>
+                            <List.Item className="smooth">($27 per additional child)</List.Item>
 
                         </List>
 
                             description=
-                            <List className="w3-center-align KGN1">
+                            <List className="w3-center-align KGN1"><b>
                                 <List.Item>-90 Minute Private Party</List.Item>
-                                <List.Item>-$15 Arcade Playing Card Per Child</List.Item>
-                                <List.Item>-750 Bonus Tickets for the Birthday Star</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>$15 Arcade Playing Card Per Child</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>400 Bonus Tickets for the Birthday Star</List.Item>
                                 <List.Item>-Free Ticket Blaster Experience for the Birthday Star</List.Item>
                                 <List.Item>-Planet Play Shirt Signed by Guests for the Birthday Star</List.Item>
                                 <List.Item>-15-minute appearance from our very own Astro the Alien</List.Item>
                                 <List.Item>-Galaxy Themed Paper Goods</List.Item>
                                 <List.Item>-Pizza, Juice, and Cupcakes (nut-free) for Each Child</List.Item>
                                 <List.Item>-Goody Bags for Each Child</List.Item>
-                                <List.Item>-Two Out of This World Party Hosts</List.Item>
-                                <List.Item>-Temporary Tattoo Station</List.Item>
-                                <List.Item>-Free Open Play Pass for Each Child to Use at a Later Date</List.Item>
+                                <List.Item>-Five Out of This World Party Hosts</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>Temporary Tattoo Station</List.Item>
+                                </b>
 
                             </List>
                             />
@@ -95,15 +95,15 @@ const BdayParties = () => {
                             meta=<List className="neon1h">
                             <List.Item>$999 plus tax & gratuity</List.Item>
                             <List.Item>18 children plus the Birthday Star</List.Item>
-                            <List.Item>($30 per additional child)</List.Item>
+                            <List.Item className="smooth">($30 per additional child)</List.Item>
 
                         </List>
 
                             description=
-                            <List className="w3-center-align, KGN1">
-                                <List.Item>-120 Minute Private Party</List.Item>
-                                <List.Item>-$20 Arcade Playing Card Per Child</List.Item>
-                                <List.Item>-1,000 Bonus Tickets for the Birthday Star</List.Item>
+                            <List className="w3-center-align, KGN1"><b>
+                                <List.Item><Icon color='gold' name='star' size='small'/>120 Minute Private Party</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>$20 Arcade Playing Card Per Child</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>600 Bonus Tickets for the Birthday Star</List.Item>
                                 <List.Item>-Free Ticket Blaster Experience for the Birthday Star</List.Item>
                                 <List.Item>-Planet Play Shirt Signed by Guests for the Birthday Star</List.Item>
                                 <List.Item>-15-minute appearance from our very own Astro the Alien</List.Item>
@@ -111,9 +111,9 @@ const BdayParties = () => {
                                 <List.Item>-Pizza, Juice, and Cupcakes (nut-free) for Each Child</List.Item>
                                 <List.Item>-Goody Bags for Each Child</List.Item>
                                 <List.Item>-Five Out of This World Party Hosts</List.Item>
-                                <List.Item>-Temporary Tattoo Station</List.Item>
-                                <List.Item>-Free Open Play Pass for Each Child to Use at a Later Date</List.Item>
-                                <List.Item>-Picture Package Add-On Included for Free</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>Temporary Tattoo Station</List.Item>
+                                <List.Item><Icon color='gold' name='star' size='small'/>Free Open Play Pass for Each Child to Use at a Later Date</List.Item>
+                                <List.Item>-Picture Package Add-On Included for Free</List.Item></b>
                             </List>
 
                             />
@@ -207,7 +207,7 @@ const BdayParties = () => {
                             <Table.Cell>fOIL BALLONS SMALL (16"-19")</Table.Cell>
                             <Table.Cell>$5 EACH</Table.Cell>
                             <Table.Cell>fOIL BALLONS Medium (20"-35")</Table.Cell>
-                            <Table.Cell>$8</Table.Cell>
+                            <Table.Cell>$8 Each</Table.Cell>
                         </Table.Row>
                         <Table.Row>
                             <Table.Cell>fOIL BALLONS LARGE (36" AND UP)</Table.Cell>
@@ -273,11 +273,6 @@ const BdayParties = () => {
                     </Table.Body>
                 </Table>
                 <br></br>
-
-                <List>
-                <List.Item>Saturday hours to 8:30</List.Item>
-                <List.Item>Sunday hours to 6:30</List.Item>
-                </List>
 
             </div>
         </div>

@@ -19,7 +19,9 @@ class Classes extends Component {
     render() {
         return (
             <React.Fragment>
-                <div>
+                <div id='Classes'>
+                <h1 className="neon3h smoothb w3-text-white">Class Information</h1>
+                <br></br>
                     <Image size="large" src={header}  verticalAlign='top'/>
                 </div>
                 <br></br><br></br>
@@ -28,6 +30,8 @@ class Classes extends Component {
                     </p>
                     <br></br><br></br>
                     <p className="KGNb">Classes run for 3 month long semesters. We meet once a week for 45 minutes each class. All of Planet Play’s classes have been designed by a certified teacher. </p>
+                    <br></br>
+                    <p className="KGNb">Drop in option available, call in advance to book your class. $35 per drop-in class.</p>
                     <br></br>
                     <Segment id='card8' attached>
 
