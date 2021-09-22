@@ -22,13 +22,13 @@ class Schedules extends Component {
               </Grid.Column>
             </Grid.Row>
             <div className="row">
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <p><b className='smoothb'>Mini Milky Way</b></p>
               </div>
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <b className=" KGN w3-left-align">(Up to 7 years old)</b>
               </div>
-              <div className="col-12 col-md-4 KGN">
+              <div className="col-12 KGN">
                 <List.Item>
                   <b>Mon </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b>
                 </List.Item>
@@ -42,13 +42,13 @@ class Schedules extends Component {
             </div>
 
             <div className="row">
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <p className='smoothb'><b>All Age Astronauts</b></p>
               </div>
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <b>(For all ages)</b>
               </div>
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <List>
                   <b>
                   <List.Item>
@@ -89,13 +89,13 @@ class Schedules extends Component {
             </div>
 
             <div className="row">
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <p id="SS" className='smoothb'><b>Sensitive Space</b></p>
               </div>
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <b>(For all ages)</b>
               </div>
-              <div className="col-12 col-md-4">
+              <div className="col-12">
                 <b>*Sensitive Space will be held the 1st Wednesday of every month from 4:45-6:45 and the 3rd Saturday of every month from 8:45am-10:45am
   *</b>
               </div>
