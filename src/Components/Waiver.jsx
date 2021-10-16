@@ -20,7 +20,7 @@ export class ComponentToPrint extends React.PureComponent {
                     “PP”) from any and all losses, liabilities, claims, expenses, demands, actions, damages, injuries, causes of action, and rights of action which are
                     related to, arise out of, or are in any way connected with my child’s participation in activities at, with, or sponsored or administered by PP.
                     The foregoing waiver of liability includes, without limitation, damages or injury resulting from the negligence of PP (whether such claims are
-                    based upon breach of contract, breach of warranty, or any other legal theory) or from any other cause or causes. 
+                    based upon breach of contract, breach of warranty, or any other legal theory) or from any other cause or causes.
                 </p>
             </li>
             <li>
@@ -41,7 +41,7 @@ export class ComponentToPrint extends React.PureComponent {
             </li>
             <li>
                 <p><strong>MEDICAL EXPENSES:</strong>:I will pay for my child’s and my own emergency medical expenses and all subsequent medical expenses in the event of
-                    any incident, accident, illness or incapacity, regardless of whether I have otherwise authorized such expenses. 
+                    any incident, accident, illness or incapacity, regardless of whether I have otherwise authorized such expenses.
                 </p>
             </li>
             <li>
@@ -102,9 +102,9 @@ const WaiverPDF = () => {
   return (
     <div className="container">
       <br></br>
-      <div  id="wave"> <h1 className='KGN3'> Planet Play requires a signed waiver for all children entering our facility.
+      <div  id="wave"> <h1 className='KGNM'> Planet Play requires a signed waiver for all children entering our facility.
 </h1></div>
-      <ReactToPrint 
+      <ReactToPrint
         trigger={() => <button className="pdfWrapper-Button">Print this out!</button>}
         content={() => componentRef.current}
       />

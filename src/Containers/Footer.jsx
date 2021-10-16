@@ -78,7 +78,7 @@ class Footer extends Component {
             <Link to="/Schedules#openChart"><List.Item>Schedule</List.Item></Link>
             <Link to="/Schedules#openChart"><List.Item>Open Play</List.Item></Link>
             <Link to="/Schedules#Calendar"><List.Item>Special Events</List.Item></Link>
-            <Link to="/Schedules#Classes"><List.Item>Classes</List.Item></Link>
+            <Link to="/Classes#top"><List.Item>Classes</List.Item></Link>
             <Link to="/Schedules#Calendar"><List.Item>Calendar</List.Item></Link>
           </List>
         </div>

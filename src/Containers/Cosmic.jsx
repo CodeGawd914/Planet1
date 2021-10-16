@@ -29,7 +29,10 @@ class Cosmic extends Component {
           <div className="col-md-4">
           <Image src={coffee} />
           </div>
-          <div className="col-md-4"></div>
+          <div className="col-md-4">
+            <Image size='massive'src={logo} />
+            <Image size='massive'src={logo} />
+          </div>
           <div className="col-md-4">
             <Image src={cosmic2}/>
           </div>
@@ -39,7 +42,10 @@ class Cosmic extends Component {
           <div className="col-md-4">
           <Image src={cafe1} />
           </div>
-          <div className="col-md-4"></div>
+          <div className="col-md-4">
+              <Image size='massive'src={logo} />
+              <Image size='massive'src={logo} />
+          </div>
           <div className="col-md-4">
             <Image src={cafe2}/>
           </div>

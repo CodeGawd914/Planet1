@@ -20,7 +20,7 @@ class Classes extends Component {
         return (
             <React.Fragment>
                 <div id='Classes'>
-                <h1 className="neon3h smoothb w3-text-white">Class Information</h1>
+                <h1 id="top" className="neon3h smoothb w3-text-white">Class Information</h1>
                 <br></br>
                     <Image size="large" src={header}  verticalAlign='top'/>
                 </div>

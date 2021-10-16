@@ -3,6 +3,13 @@ import {Table, Icon, Segment, Image, Grid, Card, List} from 'semantic-ui-react'
 import bdaypic from '../images/bdaypic.jpeg'
 import bdaypic1 from '../images/bdaypic1.jpg'
 import bdaypic2 from '../images/bdaypic2.jpg'
+import pn2 from '../images/pn2.jpeg'
+import pn4 from '../images/pn4.jpeg'
+import pn7 from '../images/pn7.jpeg'
+import bd1 from '../images/Bdn01.jpeg'
+import bd0 from '../images/bdn0.jpeg'
+import bd01 from '../images/bdn010.jpeg'
+
 
 const BdayParties = () => {
 
@@ -10,6 +17,7 @@ const BdayParties = () => {
         <React.Fragment>
         <div className="container">
             <br/>
+              <h1 className=" neon3h smoothb w3-text-white">Birthday Parties</h1>
             <br/>
             <div id='Para'>
                 <div className="container">
@@ -25,6 +33,22 @@ const BdayParties = () => {
                 </p>
                 </div>
                 <br></br>
+                <Segment id='card6'  attached>
+
+                    <Grid.Row centered>
+                    <div className="col-md-4">
+                      <Image src={pn2}/>
+                    </div>
+                    <div className="col-md-4">
+                      <Image src={pn4}/>
+                    </div>
+                    <div className="col-md-4">
+                      <Image src={pn7}/>
+                    </div>
+                    </Grid.Row>
+                </Segment>
+                <br></br>
+                <br></br>
             </div>
             <div id="Packages">
                 <Grid className="ui stackable three column grid smoothb bday-list" columns={3}>
@@ -32,11 +56,11 @@ const BdayParties = () => {
                         <Grid.Column>
                             <Card className="sm-img-100" id="card8"
                                   image={bdaypic1}
-                                  header=<p className='smooth16, neonRedh'>Birthday Blast Off</p>
+                                  header=<p className='smooth, neonRedh'>Birthday Blast Off</p>
                             meta=<List className="neon1h">
                             <List.Item>$599 plus tax & gratuity</List.Item>
                             <List.Item>10 Children plus the Birthday Star</List.Item>
-                            <List.Item className="smooth">($25 per additional child)</List.Item>
+                            <List.Item className="smooth12">($25 per additional child)</List.Item>
 
                         </List>
 
@@ -44,6 +68,7 @@ const BdayParties = () => {
                             <List className="w3-center-align, KGN1"><b>
                                 <List.Item>-90 Minute Private Party</List.Item>
                                 <List.Item>-$10 Arcade Playing Card Per Child</List.Item>
+                                <List.Item>(40 points)</List.Item>
                                 <List.Item>-200 Bonus Tickets for the Birthday Star</List.Item>
                                 <List.Item>-Free Ticket Blaster Experience for the Birthday Star</List.Item>
                                 <List.Item>-Planet Play Shirt Signed by Guests for the Birthday Star</List.Item>
@@ -60,12 +85,12 @@ const BdayParties = () => {
                         <br></br><br></br><br></br><br></br>
                         <Grid.Column>
                             <Card className="sm-img-100" id="card8"
-                                  image={bdaypic}
+                                  image={bdaypic2}
                                   header=<p className="smooth, neonPink">Explore the Universe</p>
                             meta=<List className="neon1h">
                             <List.Item>$799 plus tax & gratuity</List.Item>
                             <List.Item>15 children plus the Birthday Star</List.Item>
-                            <List.Item className="smooth">($27 per additional child)</List.Item>
+                            <List.Item className="smooth12">($27 per additional child)</List.Item>
 
                         </List>
 
@@ -73,6 +98,7 @@ const BdayParties = () => {
                             <List className="w3-center-align KGN1"><b>
                                 <List.Item>-90 Minute Private Party</List.Item>
                                 <List.Item><Icon color='gold' name='star' size='small'/>$15 Arcade Playing Card Per Child</List.Item>
+                                <List.Item>(60 points)</List.Item>
                                 <List.Item><Icon color='gold' name='star' size='small'/>400 Bonus Tickets for the Birthday Star</List.Item>
                                 <List.Item>-Free Ticket Blaster Experience for the Birthday Star</List.Item>
                                 <List.Item>-Planet Play Shirt Signed by Guests for the Birthday Star</List.Item>
@@ -90,12 +116,13 @@ const BdayParties = () => {
                         <br></br><br></br><br></br><br></br>
                         <Grid.Column>
                             <Card className="sm-img-100" id="card8"
-                                  image={bdaypic2}
+                                  image={bdaypic}
                                   header=<p className="smooth, neon3">Sky’s the Limit</p>
                             meta=<List className="neon1h">
+                            <br></br>
                             <List.Item>$999 plus tax & gratuity</List.Item>
                             <List.Item>18 children plus the Birthday Star</List.Item>
-                            <List.Item className="smooth">($30 per additional child)</List.Item>
+                            <List.Item className="smooth12">($30 per additional child)</List.Item>
 
                         </List>
 
@@ -103,6 +130,7 @@ const BdayParties = () => {
                             <List className="w3-center-align, KGN1"><b>
                                 <List.Item><Icon color='gold' name='star' size='small'/>120 Minute Private Party</List.Item>
                                 <List.Item><Icon color='gold' name='star' size='small'/>$20 Arcade Playing Card Per Child</List.Item>
+                                <List.Item>(80 points)</List.Item>
                                 <List.Item><Icon color='gold' name='star' size='small'/>600 Bonus Tickets for the Birthday Star</List.Item>
                                 <List.Item>-Free Ticket Blaster Experience for the Birthday Star</List.Item>
                                 <List.Item>-Planet Play Shirt Signed by Guests for the Birthday Star</List.Item>
@@ -113,7 +141,7 @@ const BdayParties = () => {
                                 <List.Item>-Five Out of This World Party Hosts</List.Item>
                                 <List.Item><Icon color='gold' name='star' size='small'/>Temporary Tattoo Station</List.Item>
                                 <List.Item><Icon color='gold' name='star' size='small'/>Free Open Play Pass for Each Child to Use at a Later Date</List.Item>
-                                <List.Item>-Picture Package Add-On Included for Free</List.Item></b>
+                                <List.Item><Icon color='gold' name='star' size='small'/>Picture Package Add-On Included for Free</List.Item></b>
                             </List>
 
                             />
@@ -152,6 +180,25 @@ const BdayParties = () => {
             </Grid>
             <br></br>
             <br></br>
+            <Segment id='card6'  attached>
+
+                <Grid.Row centered>
+                <div className="col-md-4">
+                  <Image src={bd1}/>
+                </div>
+                <div className="col-md-4">
+                  <Image src={bd0}/>
+                </div>
+                <div className="col-md-4">
+                  <Image src={bd01}/>
+                </div>
+                </Grid.Row>
+            </Segment>
+            <br></br>
+
+
+            <br></br>
+            <br></br>
             <div className='smooth' id='Add'>
                 <Table id='card3' unstackable>
                     <Table.Header>
@@ -164,56 +211,56 @@ const BdayParties = () => {
                         <Table.Row>
                             <Table.Cell>DELUXE TUMBLER FAVOR</Table.Cell>
                             <Table.Cell>$5 EACH</Table.Cell>
-                            <Table.Cell>PERSONALIZED DELUXE TUMBLER FAVOR</Table.Cell>
-                            <Table.Cell>$8 EACH</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>DELUXE DRAWSTRING BACKPACK FAVOR</Table.Cell>
-                            <Table.Cell>$5 EACH</Table.Cell>
-                            <Table.Cell>UNLIMITED VIRTUAL REALITY</Table.Cell>
-                            <Table.Cell>$100</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                        <Table.Cell>Custom ThemeD EVENT</Table.Cell>
-                        <Table.Cell>$85</Table.Cell>
-                        <Table.Cell>CHARACTER APPEARANCE</Table.Cell>
-                        <Table.Cell>$100</Table.Cell>
-                      </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>CHARACTER & cUSTOMED THEME BUNDLE</Table.Cell>
-                            <Table.Cell>$150</Table.Cell>
-                            <Table.Cell>GLOW PARTY & GLOW THEME BUNDLE</Table.Cell>
-                            <Table.Cell>$150</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
                             <Table.Cell>GLOW PARTY</Table.Cell>
                             <Table.Cell>$100</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>PERSONALIZED DELUXE TUMBLER FAVOR</Table.Cell>
+                            <Table.Cell>$8 EACH</Table.Cell>
                             <Table.Cell>GLOW THEMED PARTY ROOM</Table.Cell>
                             <Table.Cell>$85</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>TATTOO STATION</Table.Cell>
-                            <Table.Cell>$50</Table.Cell>
-                            <Table.Cell>pICTURE PACKAGE</Table.Cell>
-                            <Table.Cell>$50</Table.Cell>
+                          <Table.Cell>DELUXE DRAWSTRING BACKPACK FAVOR</Table.Cell>
+                          <Table.Cell>$5 EACH</Table.Cell>
+                          <Table.Cell>GLOW PARTY & GLOW THEME BUNDLE</Table.Cell>
+                          <Table.Cell>$150</Table.Cell>
+                      </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>UNLIMITED VIRTUAL REALITY</Table.Cell>
+                            <Table.Cell>$100</Table.Cell>
+                            <Table.Cell>EXTRA HALF HOUR</Table.Cell>
+                            <Table.Cell>$150</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>aDDITONAL LATEX BALLONS</Table.Cell>
-                            <Table.Cell>$1.50 EACH</Table.Cell>
+                            <Table.Cell>TATTOO STATION</Table.Cell>
+                            <Table.Cell>$50</Table.Cell>
                             <Table.Cell>bALLON BOUQUETS</Table.Cell>
                             <Table.Cell>$20 EACH</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>fOIL BALLONS SMALL (16"-19")</Table.Cell>
+                            <Table.Cell>pICTURE PACKAGE</Table.Cell>
+                            <Table.Cell>$50</Table.Cell>
+                            <Table.Cell>aDDITONAL LATEX BALLOONS</Table.Cell>
+                            <Table.Cell>$1.50 EACH</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CHARACTER APPEARANCE</Table.Cell>
+                            <Table.Cell>$100</Table.Cell>
+                            <Table.Cell>fOIL BALLOONS SMALL (16"-19")</Table.Cell>
                             <Table.Cell>$5 EACH</Table.Cell>
-                            <Table.Cell>fOIL BALLONS Medium (20"-35")</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>Custom ThemeD EVENT</Table.Cell>
+                            <Table.Cell>$85</Table.Cell>
+                            <Table.Cell>fOIL BALLOONS Medium (20"-35")</Table.Cell>
                             <Table.Cell>$8 Each</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>fOIL BALLONS LARGE (36" AND UP)</Table.Cell>
-                            <Table.Cell>$12 EACH</Table.Cell>
-                            <Table.Cell>EXTRA HALF HOUR</Table.Cell>
+                            <Table.Cell>CHARACTER & CUSTOM THEME BUNDLE</Table.Cell>
                             <Table.Cell>$150</Table.Cell>
+                            <Table.Cell>fOIL BALLOONS LARGE (36" AND UP)</Table.Cell>
+                            <Table.Cell>$12 EACH</Table.Cell>
                         </Table.Row>
                         <Table.Row textAlign='center'>
                             <Table.HeaderCell colspan="4" id='card3'> FOOD Add-Ons</Table.HeaderCell>
@@ -221,54 +268,54 @@ const BdayParties = () => {
                         <Table.Row>
                             <Table.Cell>Regular pIZZA Pie</Table.Cell>
                             <Table.Cell>$18</Table.Cell>
-                            <Table.Cell>Sicilian PIZZA Pie</Table.Cell>
-                            <Table.Cell>$19</Table.Cell>
+                            <Table.Cell>House/Caesar Salad half tray (serves 6-8)</Table.Cell>
+                            <Table.Cell>$25</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>Pepperoni Pie</Table.Cell>
+                            <Table.Cell>Pepperoni PIZZA Pie</Table.Cell>
                             <Table.Cell>$20</Table.Cell>
-                            <Table.Cell>gRANDMA PIZZA Pie</Table.Cell>
-                            <Table.Cell>$19</Table.Cell>
+                            <Table.Cell>House/Caesar Salad full tray (serves 10-12) </Table.Cell>
+                            <Table.Cell>$43</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>Veggie PIZZA Pie</Table.Cell>
+                            <Table.Cell>Sicilian Pie</Table.Cell>
+                            <Table.Cell>$19</Table.Cell>
+                            <Table.Cell>Garlic Knots-half tray</Table.Cell>
+                            <Table.Cell>$35</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>BRUSCHETTA Pie</Table.Cell>
+                            <Table.Cell>$24</Table.Cell>
+                            <Table.Cell>Garlic Knots- full tray</Table.Cell>
+                            <Table.Cell>$47</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>VEGETABLE Pie</Table.Cell>
                             <Table.Cell>$24</Table.Cell>
                             <Table.Cell>Stuffed Knots: Either spinach, sausage, or pepperoni (each)</Table.Cell>
                             <Table.Cell>$1.50</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>Garlic Knots-half tray</Table.Cell>
-                            <Table.Cell>$35</Table.Cell>
-                            <Table.Cell>Garlic Knots- full tray</Table.Cell>
-                            <Table.Cell>$47</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>House/Caesar Salad half tray (serves 6-8)</Table.Cell>
-                            <Table.Cell>$25</Table.Cell>
-                            <Table.Cell>House/Caesar Salad full tray (serves 10-12) </Table.Cell>
-                            <Table.Cell>$43</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
                             <Table.Cell>Chicken Fingers half tray</Table.Cell>
                             <Table.Cell>$50</Table.Cell>
+                            <Table.Cell>2 Liter of Soda (cOKE,DIET COKE, SPRITE, GINGER ALE)</Table.Cell>
+                            <Table.Cell>$4</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
                             <Table.Cell>Chicken Fingers full tray</Table.Cell>
                             <Table.Cell>$85</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>French Fries half tray</Table.Cell>
-                            <Table.Cell>$20</Table.Cell>
-                            <Table.Cell>French Fries full tray</Table.Cell>
-                            <Table.Cell>$35</Table.Cell>
+                            <Table.Cell>Gallon of Water</Table.Cell>
+                            <Table.Cell>$4</Table.Cell>
                         </Table.Row>
                           <Table.Row>
-                          <Table.Cell>2 Liter of Soda(cOKE,DIET COKE, SPRITE, GINGER ALE)</Table.Cell>
-                          <Table.Cell>$4</Table.Cell>
-                          <Table.Cell>Gallon of Water</Table.Cell>
-                          <Table.Cell>$4</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
+                            <Table.Cell>French Fries half tray</Table.Cell>
+                            <Table.Cell>$20</Table.Cell>
                             <Table.Cell> Additional cupcakes</Table.Cell>
                             <Table.Cell> $1.50 each</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>French Fries full tray</Table.Cell>
+                            <Table.Cell>$35</Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>

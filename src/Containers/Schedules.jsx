@@ -30,13 +30,13 @@ class Schedules extends Component {
               </div>
               <div className="col-12 KGN">
                 <List.Item>
-                  <b>Mon </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b>
+                  <b>Mon </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b> <Icon color='gold' name='star' size='small'/>
                 </List.Item>
                 <List.Item>
-                  <b>Wed </b><Icon color='gold' name='star' size='small'/> <b> 10am-12pm </b><Icon color='gold' name='star' size='small'/><b>12:15pm-2:15pm</b>
+                  <b>Wed </b><Icon color='gold' name='star' size='small'/> <b> 10am-12pm </b><Icon color='gold' name='star' size='small'/><b>12:15pm-2:15pm</b> <Icon color='gold' name='star' size='small'/>
                 </List.Item>
                 <List.Item>
-                  <b>Thurs </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b>
+                  <b>Thurs </b><Icon color='gold' name='star' size='small'/> <b> 12pm-2pm </b><Icon color='gold' name='star' size='small'/><b>2pm-4pm</b> <Icon color='gold' name='star' size='small'/>
                 </List.Item>
               </div>
             </div>
@@ -62,7 +62,7 @@ class Schedules extends Component {
                   </List.Item>
                   <List.Item>
                     <b>Fri </b> <Icon color='gold' name='star' size='small'/><b> 3pm-5pm </b><Icon color='gold' name='star' size='small'/>
-                  <b> 5pm-7pm </b><Icon color='gold' name='star' size='small'/><b> 7pm-9pm </b><Icon color='gold' name='star' size='small'/>
+                  <b> 7pm-9pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <List.Item>
                     <b>Sat </b>  <Icon color='gold' name='star' size='small'/><b> 4:30pm-6:30pm </b><Icon color='gold' name='star' size='small'/><b> 6:30pm-8:30pm </b><Icon color='gold' name='star' size='small'/>
@@ -71,7 +71,6 @@ class Schedules extends Component {
                     <b>Sun </b>  <Icon color='gold' name='star' size='small'/><b> 2:30pm-4:30pm </b><Icon color='gold' name='star' size='small'/><b> 4:30pm-6:30pm </b><Icon color='gold' name='star' size='small'/>
                   </List.Item>
                   <br></br>
-                  <br></br>
                     <List.Item>
                     <Icon color='gold' name='star' size='small'/>
                           <b>Fri,Sat,Sun</b>
@@ -79,7 +78,7 @@ class Schedules extends Component {
                       <br></br>
                     </List.Item>
                     <List.Item>
-                      *Open play times vary based on party bookings. Please check our <Link to="/Schedules#Calendar">calendar</Link>
+                      *Additonal open play times may be available & existing open play times can change based on private party bookings. Please check our <Link to="/Schedules#Calendar">calendar</Link>
                   </List.Item>
                   </b>
                 </List>
@@ -96,16 +95,17 @@ class Schedules extends Component {
                 <b>(For all ages)</b>
               </div>
               <div className="col-12">
-                <b>*Sensitive Space will be held the 1st Wednesday of every month from 4:45-6:45 and the 3rd Saturday of every month from 8:45am-10:45am
+                <b>*Sensitive Space will be held the 1st Wednesday of every month from 4:45pm-6:45pm and the 3rd Saturday of every month from 8:45am-10:45am
   *</b>
               </div>
             </div>
           </Grid>
           <br></br>
           <br></br>
-          <p className="KGNb">*Schedule is subject to change due to holidays, school breaks,& private parties. Always check our <Link to="/Schedules#Calendar">calendar</Link> prior to coming for open play.*</p>
+          <p className="KGNb">*Schedule is subject to change due to holidays, school breaks, & private parties. Always check our <Link to="/Schedules#Calendar">calendar</Link> prior to coming for open play.*</p>
+          <p className="KGNb">*During school breaks, all ages are allowed during business hours.*</p>
           <p className="KGNb">*Reservations are not required but suggested, especially for weekend slots.*</p>
-          <p className="KGNb">*Walk-ins permitted based on availabity!*</p>
+          <p className="KGNb">*Walk-ins permitted based on availablity!*</p>
 
 
 

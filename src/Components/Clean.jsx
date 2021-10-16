@@ -12,6 +12,7 @@ class Clean extends Component {
       <div className="container">
         <div id='hs1' className='KGNb'>
         <br></br>
+        <h1 className=" neon3h smoothb w3-text-white">Health & Saftey</h1>
         <br></br>
             Here at Planet Play, we prioritize health and safety. Please see our cleaning protocol, along with information regarding the products we have chosen to use to protect our facility.
           <br></br>

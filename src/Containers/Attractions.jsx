@@ -13,19 +13,12 @@ import bounce3 from '../images/bounce3.jpg'
 import tickets1 from '../images/tickets1.jpg'
 import tickets2 from '../images/tickets2.jpg'
 import trade3 from '../images/trade3.jpg'
-import vr1 from '../images/vr1new.jpg'
 import vr2 from '../images/vr2new.jpg'
 import vr3 from '../images/vr3new.jpg'
 import toddler1 from '../images/toddler1.jpg'
 import toddler2 from '../images/toddler2.jpg'
 import toddler3 from '../images/toddler3.jpg'
-import jn1 from '../images/jn1.jpeg'
-import jn2 from '../images/jn2.jpeg'
-import jn3 from '../images/jn3.jpeg'
-import jn4 from '../images/jn4.jpeg'
-import jn5 from '../images/jn5.jpeg'
 import jn6 from '../images/jn6.jpeg'
-import jn8 from '../images/jn8.jpeg'
 import jn7 from '../images/jn7.jpeg'
 import jn9 from '../images/jn9.jpeg'
 import an1 from '../images/an1.jpeg'
@@ -39,7 +32,11 @@ import an8 from '../images/an8.jpeg'
 import bn1 from '../images/bn1.jpeg'
 import csn1 from '../images/csn1.jpeg'
 import bn2 from '../images/bn2.jpeg'
-import csn2 from '../images/csn2.jpeg'
+import vrn2 from '../images/vrn2.jpeg'
+import redeem1 from '../images/redeem1.jpeg'
+import redeem2 from '../images/redeem2.jpeg'
+import redeem3 from '../images/redeem3.jpeg'
+import bl from '../images/bL1.jpeg'
 
 class Attractions extends Component {
 
@@ -75,38 +72,15 @@ class Attractions extends Component {
 
                 <Grid.Row centered>
                 <div className="col-md-4">
-                  <Image src={jn5}/>
+                  <Image src={jn6}/>
                 </div>
                 <div className="col-md-4">
-                  <Image src={jn3}/>
-                </div>
-                <div className="col-md-4">
-                  <Image src={jn8}/>
-                </div>
-                </Grid.Row>
-
-                <Grid.Row centered>
-                <div className="col-md-4">
-                  <Image src={jn7}/>
+                  <Image src={bl}/>
                 </div>
                 <div className="col-md-4">
                   <Image src={jn9}/>
                 </div>
-                <div className="col-md-4">
-                  <Image src={jn6}/>
-                </div>
                 </Grid.Row>
-
-                <Grid.Row centered>
-                <div className="col-md-4">
-                </div>
-                <div className="col-md-4">
-                  <Image src={jn1}/>
-                </div>
-                <div className="col-md-4">
-                </div>
-                </Grid.Row>
-
           </Segment>
           </div>
           <br></br><br></br>
@@ -118,13 +92,13 @@ class Attractions extends Component {
 
               <Grid.Row centered>
               <div className="col-md-4">
-                <Image src={vr1}/>
-              </div>
-              <div className="col-md-4">
-                <Image size='massive'src={vr2}/>
+                <Image src={vrn2}/>
               </div>
               <div className="col-md-4">
                 <Image src={vr3}/>
+              </div>
+              <div className="col-md-4">
+                <Image src={vr2}/>
               </div>
               </Grid.Row>
 
@@ -211,6 +185,18 @@ class Attractions extends Component {
                 </div>
                 <div className="col-md-4">
                   <Image src={tickets2}/>
+                </div>
+                </Grid.Row>
+
+                <Grid.Row centered>
+                <div className="col-md-4">
+                  <Image src={redeem1}/>
+                </div>
+                <div className="col-md-4">
+                  <Image src={redeem2}/>
+                </div>
+                <div className="col-md-4">
+                  <Image src={redeem3}/>
                 </div>
                 </Grid.Row>
 
